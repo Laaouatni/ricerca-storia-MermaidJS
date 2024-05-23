@@ -1,0 +1,2637 @@
+flowchart
+    0[PRIMA RIVOLUZIONE INDUSTRIALE]
+
+
+    01[DOVE?]
+    02[QUANDO?]
+    03[BASATA SULL'UTILIZZO DEL]
+    04[QUINDI LE PRINCIPALI CONSEGUENZE ERANO]
+
+
+    0 --> 01 & 02 & 03 & 04
+
+
+    010[INGHILTERRA]
+
+
+    01 --> 010
+
+
+    020[DAL]
+    021[AL]
+    0200[1780]
+    0210[1830]
+
+
+    020 --> 0200
+    021 --> 0210
+
+
+    02 --> 020 & 021
+
+
+    030[CARBONE]
+
+
+    03 --> 030
+
+
+    0300[CHE SERVIVA \n PER AZIONARE LE]
+    03000[MACCHINE A VAPORE]
+   
+    030 --> 0300 --> 03000
+
+
+    040[SERIE DI]
+    0400[INVENZIONI]
+    0401[INNOVAZIONI]
+
+
+    040 --> 0400 & 0401
+    04 --> 040
+
+
+    0400 --> |ad esempio| 03000
+
+-----
+
+flowchart
+    0[PRIMA RIVOLUZIONE INDUSTRIALE]
+
+
+    01[DOVE?]
+    02[QUANDO?]
+    03[BASATA SULL'UTILIZZO DEL]
+    04[QUINDI LE PRINCIPALI CONSEGUENZE ERANO]
+
+
+    0 --> 01 & 02 & 03 & 04
+
+
+    010[INGHILTERRA]
+
+
+    01 --> 010
+
+
+    0200[1780]
+    0210[1830]
+
+
+    02 --> |INIZIO| 0200
+    02 --> |FINE|0210
+
+
+    030[CARBONE]
+
+
+    03 --> 030
+
+
+    0300[CHE SERVIVA \n PER AZIONARE LE]
+    03000[MACCHINE A VAPORE]
+   
+    030 --> 0300 --> 03000
+
+
+    040[SERIE DI]
+    0400[INVENZIONI]
+    0401[INNOVAZIONI]
+
+
+    040 --> 0400 & 0401
+    04 --> 040
+
+
+    0400 --> |AD ESEMPIO| 03000
+
+-----
+
+flowchart
+    0[PRIMA RIVOLUZIONE INDUSTRIALE]
+
+
+    01[DOVE?]
+    02[QUANDO?]
+    03[BASATA SULL'UTILIZZO DEL]
+    04[QUINDI LE PRINCIPALI CONSEGUENZE ERANO]
+
+
+    0 --> 01 & 02 & 03 & 04
+
+
+    010[INGHILTERRA]
+
+
+    01 --> 010
+
+
+    0200[1780]
+    0210[1830]
+
+
+    02 --> |INIZIO| 0200
+    02 --> |FINE|0210
+
+
+    030[CARBONE]
+
+
+    03 --> 030
+
+
+    0300[CHE SERVIVA \n PER AZIONARE LE]
+    03000[MACCHINE A VAPORE]
+   
+    030 --> 0300 --> 03000
+
+
+    040[SERIE DI]
+    0400[INVENZIONI]
+    0401[INNOVAZIONI]
+
+
+    040 --> 0400 & 0401
+    04 --> 040
+
+
+    0400 --> |AD ESEMPIO| 03000
+
+-----
+
+flowchart LR
+    0[DALLA 1° RIVOLUZIONE INDUSTRIALE \n ALLA 2° RIVOLUZIONE INDUSTRIALE]
+
+
+    01[QUANDO?]
+    010[PRIMA \n RIVOLUZIONE INDUSTRIALE]
+    011[SECONDA \n RIVOLUZIONE INDUSTRIALE]
+
+
+    01 --> 010 & 011
+
+
+    0100[1780]
+    0101[1830]
+
+
+    010 --> |INIZIO| 0100
+    010 --> |FINE| 0101
+
+
+    0110[1870]
+    0111[1910]
+
+
+    011 --> |INIZIO| 0110
+    011 --> |FINE| 0111
+
+
+    02[BASATA \n SULL'UTILIZZO]
+    020[PRIMA \n RIVOLUZIONE INDUSTRIALE]
+    021[SECONDA \n RIVOLUZIONE INDUSTRIALE]
+
+
+    0200[CARBONE]
+    02000[MACCHINE A VAPORE]
+
+
+    0210[PETROLIO]
+    02100[MOTORE A SCOPPIO]
+
+
+    02 --> 020 --> 0200 --> |SERVIVA AD AZIONARE| 02000
+    02 --> 021 --> 0210 --> |SERVIVA AD AZIONARE| 02100
+
+
+    0211[ELETTRICITÀ]
+    0212[ACCIAIO]
+    0213[CHIMICA]
+
+
+    021 --> 0211 & 0212 & 0213
+
+
+    0 --> 01 & 02
+
+-----
+
+flowchart
+    0[COMPARAZIONE \n DEI LAVORATORI]
+
+
+    1[PRIMA \n RIVOLUZIONE INDUSTRIALE]
+    2[SECONDA \n RIVOLUZIONE INDUSTRIALE]
+
+
+    0 --> 1 & 2
+
+
+    10[PERSONE DI GENIO]
+    11[MA]
+
+
+    1 --> 10 --> 11
+
+
+    110[fa:fa-brain INTUIZIONE]
+    111{fa:fa-circle-xmark SENZA}
+    1110[fa:fa-flask UNA BASE SCIENTIFICA]
+
+
+    111 --> 1110
+
+
+    11 --> |SOLAMENTE DAL| 110
+    11 --> 111
+
+
+    20[PROFESSIONISTI CHE]
+    200[FREQUENTANO]
+    201[POSSEDEVANO]
+    202[CONOSCEVANO]
+
+
+    2 --> 20 --> 200 & 201 & 202
+
+
+    2000[ISTITUTI \n DI RICERCA]
+
+
+    200 --> 2000
+
+
+    2010[COMPETENZE TECNICHE]
+    2011[COGNIZIONI]
+    20110[CONOSCENZA]
+    20111[CONSAPEVOLEZZA]
+    20112[SAPERSI ORIENTARE]
+
+
+    201 --> 2010 & 2011
+
+
+    20110--> 1110
+
+
+    2011 --> 20110 & 20111 & 20112
+
+
+    2020[LA FABBRICA]
+    20200[I MECCANISMI]
+    20201[STRUTTURA]
+    20202[IL MODO CON CUI]
+    202020[FUNZIONAVA]
+    202021[PRODUCEVA]
+
+
+    20200 --> 20202
+
+
+    202 --> 2020 --> 20200 & 20201 & 20202
+    20202 --> 202020 & 202021
+
+-----
+
+flowchart LR
+    0[COMPARAZIONE \n DEI LAVORATORI]
+
+
+    1[PRIMA \n RIVOLUZIONE INDUSTRIALE]
+    2[SECONDA \n RIVOLUZIONE INDUSTRIALE]
+
+
+    0 --> 1 & 2
+
+
+    10[PERSONE DI GENIO]
+    11[MA]
+
+
+    1 --> 10 --> 11
+
+
+    110[fa:fa-brain INTUIZIONE]
+    111{fa:fa-circle-xmark SENZA}
+    1110[fa:fa-flask UNA BASE SCIENTIFICA]
+
+
+    111 --> 1110
+
+
+    11 --> |SOLAMENTE DAL| 110
+    11 --> 111
+
+
+    20[PROFESSIONISTI CHE]
+    200[FREQUENTANO]
+    201[POSSEDEVANO]
+    202[CONOSCEVANO]
+
+
+    2 --> 20 --> 200 & 201 & 202
+
+
+    2000[ISTITUTI \n DI RICERCA]
+
+
+    2000 --> 2010
+
+
+    200 --> 2000
+
+
+    2010[COMPETENZE TECNICHE]
+    2011[COGNIZIONI]
+    20110[CONOSCENZA]
+    20111[CONSAPEVOLEZZA]
+    20112[SAPERSI ORIENTARE]
+
+
+    201 --> 2010 & 2011
+
+
+    20110--> 1110
+
+
+    2011 --> 20110 & 20111 & 20112
+
+
+    2020[LA FABBRICA]
+    20200[I MECCANISMI]
+    20201[STRUTTURA]
+    20202[IL MODO CON CUI]
+    202020[FUNZIONAVA]
+    202021[PRODUCEVA]
+
+
+    20200 --> 20202
+
+
+    202 --> 2020 --> 20200 & 20201 & 20202
+    20202 --> 202020 & 202021
+
+-----
+
+flowchart LR
+    0[COMPARAZIONE \n DEI LAVORATORI]
+
+
+
+
+    1[PRIMA \n RIVOLUZIONE INDUSTRIALE]
+    2[SECONDA \n RIVOLUZIONE INDUSTRIALE]
+
+
+
+
+    0 --> 1 & 2
+
+
+
+
+    10[PERSONE DI GENIO]
+    11[MA]
+
+
+
+
+    1 --> 10 --> 11
+
+
+
+
+    110[fa:fa-brain INTUIZIONE]
+    111{fa:fa-circle-xmark SENZA}
+    1110[fa:fa-flask UNA BASE SCIENTIFICA]
+
+
+
+
+    111 --> 1110
+
+
+
+
+    11 --> |GUIDATE \n SOLAMENTE DAL| 110
+    11 --> 111
+
+
+
+
+    20[PROFESSIONISTI CHE]
+    200[FREQUENTANO]
+    201[POSSEDEVANO]
+    202[CONOSCEVANO]
+
+
+
+
+    2 --> 20 --> 200 & 201 & 202
+
+
+
+
+    2000[ISTITUTI \n DI RICERCA]
+
+
+
+
+    2000 --> 2010
+
+
+
+
+    200 --> 2000
+
+
+
+
+    2010[COMPETENZE TECNICHE]
+    2011[COGNIZIONI]
+    20110[CONOSCENZA]
+    20111[CONSAPEVOLEZZA]
+    20112[SAPERSI ORIENTARE]
+
+
+
+
+    201 --> 2010 & 2011
+
+
+
+
+    20110--> 1110
+
+
+
+
+    2011 --> 20110 & 20111 & 20112
+
+
+
+
+    2020[LA FABBRICA]
+    20200[I MECCANISMI]
+    20201[STRUTTURA]
+    20202[IL MODO CON CUI]
+    202020[FUNZIONAVA]
+    202021[PRODUCEVA]
+
+
+
+
+    20200 --> 20202
+
+
+
+
+    202 --> 2020 --> 20200 & 20201 & 20202
+    20202 --> 202020 & 202021
+
+-----
+
+flowchart
+    0[CAPITANI D'INDUSTRIA]
+   
+    1[COSA SIGNIFICA?]
+    10[LEADER DI RILIEVO \n IN SPECIFICI SETTORI \n INDUSTRIALI]
+
+
+    0 --> 1 --> 10
+
+
+    2[I LORO TITOLI DI STUDI]
+    subgraph 01[" "]
+        20[MATEMATICO]
+        21[INGEGNERE]
+        22[BIOLOGO]
+        23[CHIMICO]
+        24[FISICO]
+    end
+
+
+    0 --> 2
+    2 --> 20 & 21 & 22 & 23 & 24
+
+
+    0 --> 3
+
+
+    subgraph 02[" "]
+    3[ALCUNI ESEMPI]
+        30[BAYER]
+        31[BELL]
+        32[DUNLOP]
+        33[EDISON]
+        34[SIEMENS]
+        35[SOLVAY]
+    end
+   
+    01 --> 02
+
+
+    3 --> 30 & 31 & 32 & 33 & 34 & 35
+
+
+    300[LEADER SETTORE \n FARMACEUTICO]
+    310[INVENTORE \n TELEFONO]
+    320[INVENTORE \n PNEUMATICO ''MODERNO'']
+
+
+    330[RECORD: \n 1093 BREVETTI/INVENZIONI]
+    3300[AD ESEMPIO]
+    33000[LAMPADINA A INCANDESCENZA]
+
+
+    331[FAMOSA ESPRESSIONE \n DETTA DA EDISON ERA]
+    3310[''Il valore di un'idea \n sta nel metterla in pratica'']
+
+
+    340[LEADER SETTORE \n AUTOMAZIONE INDUSTRIALE]
+    350[INVENTORE \n METODO ''SOLVAY'']
+    3500[PRODUZIONE \n BICARBONATO DI SODIO]
+
+
+    30 --> 300
+    31 --> 310
+    32 --> 320
+    33 --> 330 & 331
+    330 --> 3300 --> 33000
+    331 --> 3310 --> 330
+    34 --> 340
+    35 --> 350 --> 3500
+
+-----
+
+flowchart
+    0[ELETTRICITÀ]
+    1[HA PERMESSO]
+    2[PRINCIPALI PROPRIETÀ]
+    3[PRINCIPALE VANTAGGIO \n ALMENO IN AMBITO INDUSTRIALE]
+    4[STORIA]
+
+
+    10[TRASPORTO ENERGIA \n A DISTANZA]
+
+
+    1 --> 10
+
+
+    0 --> 1 & 2 & 3 & 4
+
+
+    20[TRASMISSIBILITÀ]
+    21[FLESSIBILITÀ]
+
+
+    2 --> 20 & 21
+
+
+    200[TRASPORTO ENERGIA \n SENZA PERDITE]
+
+
+    20 --> 200
+
+
+    210[FACILMENTE CONVERTIBILE \n IN ALTRE FORME DI ENERGIA]
+   
+    21 --> 210
+
+
+    2100[CALORE]
+    2101[LUCE]
+    2102[MOVIMENTO]
+
+
+    210 --> 2100 & 2101 & 2102
+
+
+    30[PRIMA]
+    300[SCHIAVITÙ DI UN \n LUOGO DETERMINATO]
+    301[INDUSTRIE DEVONO ESSERE VICINE A]
+    3010[FIUMI]
+    3011[MINIERE DI CARBONE]
+
+
+    30 --> 300 & 301
+    300 --> 301
+    301 --> 3010 & 3011
+
+
+    31[DOPO]
+
+
+    3 --> 30 & 31
+
+
+    310[QUALSIASI LUOGO]
+
+
+    31 --> 310
+
+
+    40[PRIMA]
+    41[DOPO]
+
+
+    4 --> |INIZIO \n OTTOCENTO| 40
+    4 --> |FINE OTTOCENTO \n INIZIO NOVECENTO| 41
+
+
+    400[CURIOSITÀ SCIENTIFICA]
+    401[UN GIOCO DI LABORATORIO]
+
+
+    40 --> 400 & 401
+    401 --> 400
+
+
+    410[SERVIZIO ESSENZIALE \n NELLA VITA QUOTIDIANA]
+
+
+    41 --> 410 --> 411
+
+
+    411[DOVE?]
+
+
+    4110[INDUSTRIA]
+    41100((MA ANCHE \n PRESSO LE))
+    4111[STRADE]
+    4112[CASE]
+
+
+    411 --> |NON SOLO| 4110
+    411 --> |MA ANCHE PRESSO| 4111 & 4112
+    4110 --> 41100 --> 4111 & 4112
+
+-----
+
+flowchart LR
+    0[ELETTRICITÀ]
+
+
+    0 --> |COL IL TEMPO \n DIVENTA UN| 01
+
+
+    subgraph 01[" "]
+        410[SERVIZIO ESSENZIALE \n NELLA VITA QUOTIDIANA]
+
+
+        410 --> 411
+
+
+        411[DOVE?]
+
+
+        4110[INDUSTRIA]
+        41100((MA ANCHE \n PRESSO LE))
+        4111[STRADE]
+        4112[CASE]
+
+
+        411 --> |NON SOLO| 4110
+        4110 --> 41100 --> 4111 & 4112
+    end
+
+
+1{QUINDI?}
+
+
+01 --> 1
+1 --> 10 & 11
+
+
+10[ALTISSIMA RICHIESTA]
+11[CREAZIONE \n CENTRALI ELETTRICHE]
+
+
+
+
+10 --> 11
+
+
+subgraph 04[LE PRIME CENTRALI ELETTRICHE]
+    040[DOVE?]
+
+
+    040 --> 02 & 03
+
+
+    subgraph 02[1882]
+        020[NEW YORK]
+    end
+
+
+    subgraph 03[1883]
+        030[MILANO]
+    end
+end
+
+
+11 --> 040
+
+-----
+
+
+flowchart LR
+    0[FERRO]
+    1[VANTAGGI]
+
+
+    10[ROBUSTO]
+    100[IN PROPORZIONE AL]
+    1000[PESO]
+    1001[VOLUME]
+    11[PLASTICITÀ]
+    12[DUREZZA]
+    13[LAVORATO CON PRECISIONE]
+    130[TAGLIO]
+    131[FORI]
+    132[INCISIONI]
+    14[RESISTENTE]
+    140[ABRASIONE]
+    141[CALORE]
+
+
+    0 --> 1 --> 10 & 11 & 12 & 13 & 14
+   
+    10 --> 100 --> 1000 & 1001
+    13 --> 130 & 131 & 132
+    14 --> 140 & 141
+
+
+-----
+
+flowchart LR
+    0[ACCIAIO]
+    1[ACCIAIO > FERRO]
+    2[VANTAGGI]
+    3[UTILIZZATO]
+
+
+    0 --> 1 & 2 & 3
+    1 --> 2
+
+
+    20[VANTAGGI FERRO]
+    21((MA))
+    210[RIESCE A LAVORARE \n ALTRI METALLI]
+
+
+    2 --> 20
+    21 --> |CON L'AGGIUNTA \n DELLA CAPACITÀ|210
+    20 --> 21
+    2 --> 210
+
+
+    2100[CREAZIONE DI \n UTENSILI CON \n UN TAGLIO AFFILATISSIMO]
+
+
+    210 --> 2100
+
+
+    30[PER LA PRODUZIONE DI]
+    31[NEI SEGUENTI AMBITI]
+
+
+    3 --> 30 & 31
+
+
+    300[QUALSIASI OGGETTO \n SOTTOPOSTO A COLPI]
+    3000[ROTAIE ''FERROVIA'']
+    3001[CHIODI]
+    3002[INCUDINI]
+
+
+    30 --> 300 & 2100
+   
+    subgraph 02[" "]
+        300 --> 3000 & 3001 & 3002
+    end
+
+
+    310[CHE PRODUCONO \n MACCHINE COMPLESSE]
+    3100[QUALI?]
+    31000[NAVI]
+    31001[AUTOMOBILI]
+    31002[AEREI]
+    3101[VANTAGGI DELLE \n NUOVE MACCHINE \n COSTRUITE CON L'ACCIAIO]
+    31010[SONO PIÙ]
+    310100[LEGGERI]
+    310101[PICCOLI]
+    310102[VELOCI]
+
+
+    31 --> 310 --> 3100 & 3101
+    3100 --> 31000 & 31001 & 31002
+
+
+    3101 --> 31010
+
+
+    subgraph 01[" "]
+       31010 --> 310100 & 310101 & 310102
+    end
+
+
+    010{MA NONOSTANTE \n CIÒ SONO}
+
+
+    01 --> 010
+
+
+    0100[RIGIDI]
+    0101[PRECISI]
+
+
+    010 --> 0100 & 0101
+
+
+    311[COSTRUZIONI]
+    3110[SCHELETRO EDIFICI]
+    31100[PRIMA]
+    311000[LEGNO]
+    31101[ADESSO]
+    311010[SCHELETRO \n METALLICO]
+    3110100[QUALE MATERIALE?]
+    31101000[GHISA]
+    3110101[COSTRUZIONE DI]
+    31101010[CAPANNONI INDUSTRIALI]
+    31101011[PONTI A CAMPATE \n SEMPRE PIÙ AMPIE]
+
+
+    31 --> 311 --> 3110
+    3110 --> 31100 & 31101
+    31100 --> 311000
+    31101 --> 311010 --> 3110100 --> 31101000
+    3110101 --> 31101010 & 31101011
+    311010 --> 3110101
+
+-----
+
+flowchart LR
+    0[ACCIAIO]
+    1[COSTO]
+    10[PRIMA]
+    11[DOPO]
+
+
+    0 --> 1 --> 10 & 11
+
+
+    subgraph 01[" "]
+        100[TROPPO \n COSTOSO]
+        101[QUALITÀ \n MEDIO-BASSA]
+    end
+
+
+    101 --> |NONOSTANTE CIÒ| 100
+
+
+    10 --> 100 & 101
+
+
+    102{A CAUSA}
+
+
+    subgraph 02[" "]
+        1020[IMPURITÀ GHISA]
+        1021[PRESENZA DI \n PARTICELLE DI CARBONIO]
+    end
+
+
+    1020 --> 1021
+
+
+    01 --> 102 --> 02
+
+
+    11 --> 03
+
+
+    subgraph 03["QUALITÀ ALTA"]
+        110[DIVERSE SOLUZIONI]
+        1100[CONVERTITORE BESSEMER]
+        1101[FORNO MARTIN-SIEMENS]
+    end
+
+
+    110 --> 1100 & 1101
+
+
+    111{SOLUZIONI \n CHE ELIMINANO}
+
+
+    03 --> 111 --> 02
+
+-----
+
+pie
+    "rottami ferro": 70
+    "ghisa": 30
+
+-----
+
+timeline
+    title MOTORE A SCOPPIO
+    1854
+        : 2 ITALIANI
+        : BREVETTATO
+        : SENZA SUCCESSO
+
+
+    1862
+        : 1 FRANCESE
+        : MODIFICATO
+        : MONTATO SU UN VEICOLO A 2 RUOTE
+
+
+    1876
+        : 3 TEDESCHI
+        : ADESSO SI BASA SUL PETROLIO / DERIVATI
+        : PRIMA AUTOMOBILE
+
+-----
+
+flowchart LR
+    0[3 TEDESCHI]
+    01[NIKOLAS OTTO]
+    02[KARL BENZ]
+    03[GOTTLIEB DAIMLER]
+
+
+    0 --> 01 & 02 & 03
+
+
+    1((UNIONE DELLE \n DUE AZIENDE))
+    2[MERCEDES-BENZ]
+
+
+    02 & 03 --> 1 ==> 2
+
+-----
+
+flowchart
+    0[CHIMICA]
+    1[VARI TIPI \n DI APPLICAZIONE]
+
+
+    10[FERRO]
+    11[PLASTICA]
+
+
+    0 --> 1
+    1 --> 10 & 11
+
+
+    110[CELLULOIDE]
+    111[BACHELITE]
+
+
+    11 --> 110 & 111
+
+
+    1100[1° PLASTICA \n MODERNA]
+
+
+    110 --> 1100
+    111 --> 02
+
+
+    subgraph 02[" "]
+        1110[1° RESINA \n SINTETICA]
+        11100[''PLASTICA DAI MILLE USI'']
+
+
+        1110 --> 11100
+    end
+
+
+    100[LEGHE DI ACCIAIO]
+    101[METALLI NON FERROSI]
+    1010[ALLUMINIO]
+
+
+    10 --> 100 & 101
+    101 --> 1010
+
+
+    12[FARMACI]
+
+
+    1 --> 12
+    12 --> 120
+
+
+    120((AD ESEMPIO))
+    120 --> 01
+
+
+    subgraph 01[" "]
+        1200[ANTIDOLORIFICI]
+        12000[ASPIRINA]
+
+
+        1200 --> 12000
+    end
+
+
+    13[NUOVI TIPI DI]
+    130[VETRO]
+    131[CARTA]
+
+
+    13 --> 130 & 131
+    1 --> 13
+
+
+    14[INVENZIONE DI]
+    1 --> 03
+
+
+    subgraph 03[" "]
+        140[CEMENTO]
+        141[GOMMA]
+        142[CERAMICA]
+        143[COLORANTI ARTIFICIALI]
+        144[VERNICI]
+        145[PELLICOLE FOTOGRAFICHE]
+        146[PROFUMI]
+        147[ESPLOSIVI]
+
+
+        14 --> 140 & 141 & 142 & 143 & 144 & 145 & 146 & 147
+    end
+
+-----
+
+flowchart
+    0[FERROVIA]
+    1[VELOCITÀ]
+    2[PRINCIPALI \n DIFFERENZE]
+
+
+    0 --> 2 --> 1
+   
+    12[PRIMA]
+    subgraph 01[1850]
+        10[40/50 KM]
+    end
+
+
+    13[DOPO]
+    subgraph 02[1880]
+        11[70/80 KM]
+    end
+
+
+    1 --> 12 & 13
+
+
+    12 --> 01
+    13 --> 02
+
+
+    3[MATERIALE \n CARROZZA]
+
+
+    2 --> 3
+
+
+    30[PRIMA]
+    31[DOPO]
+
+
+    3 --> 30 & 31
+
+
+    subgraph 03[1850]
+        32[LEGNO]
+    end
+
+
+    subgraph 04[1905]
+        33[ACCIAIO]
+    end
+
+
+    30 --> 03
+    31 --> 04
+
+
+    4[PREZZO]
+
+
+    2-->4
+
+
+    subgraph 05[1850]
+        40[ALTO]
+    end
+
+
+    subgraph 06[1900]
+        direction TB
+        41[ACCESSIBILE A MOLTI]
+        410[DIFFUSSIONE \n DELLE FERROVIE]
+
+
+        41 --> |A CAUSA DELLA| 410
+    end
+
+
+    42[PRIMA]
+    43[DOPO]
+
+
+    4 --> 42 & 43
+
+
+    42 --> 05
+    43 --> 06
+
+
+    2 --> 5
+
+
+    5[L'INTERNO]
+
+
+    50[SENZA \n RISCALDAMENTO]
+
+
+    subgraph 07[" "]
+        500[TRANNE 1° CLASSE]
+        5000[BORSE D'ACQUA CALDA \n SOTTO I PIEDI DEI VIAGGIATORI]
+
+
+        500 --> 5000
+    end
+
+
+    51[PRIMA]
+    52[DOPO]
+   
+    5 --> 51 & 52
+
+
+    51 --> 50 --> 07
+
+
+    53[ILLUMINATO A GAS]
+    54[VAGONI]
+    540[LETTO]
+    541[RISTORANTE]
+
+
+    54 --> 540 & 541
+
+
+
+
+    55[RISCALDATO]
+    550[VAPORE DI \n UNA CALDAIA]
+
+
+    55 --> |TRAMITE| 550
+
+
+    52 --> 53 & 54 & 55
+
+-----
+
+flowchart LR
+    0[FERROVIA]
+    1[MIGLIORA \n L'ECONOMIA]
+    10[IN BASE AL MOMENTO]
+
+
+    100[PRIMA]
+    1000[MOMENTO DELLA \n SUA COSTRUZIONE]
+    101[DOPO]
+    1010[MOMENTO \n DELL'UTILIZZAZIONE]
+
+
+    0 --> 1 --> 10 --> 100 & 101
+
+
+    100 --> 1000 --> 10000
+    101 --> 1010
+
+
+    10000[NUOVI POSTI \n DI LAVORO]
+
+
+    10100[FACILITÀ]
+    101000[SPOSTAMENTO MERCI]
+    101001[COLLEGAMENTI]
+
+
+    1010 --> 10100 --> 101000 & 101001
+
+
+    10101[MERCATI \n SI ALLARGANO]
+
+
+    1010 --> 10101
+
+
+    subgraph 01[" "]
+        010[AZIENDE]
+        011[LUOGHI]
+
+
+        010 <--> |TRA| 02
+
+
+        subgraph 02[" "]
+            0110[MATERIE PRIME]
+            011 --> |DOVE SI \n TROVANO LE| 0110
+        end
+    end
+
+
+    101001 --> 01
+
+
+    10101 --> |GRAZIE ALLA| 10100
+
+-----
+
+timeline
+    1869 (AMERICA): COSTA ATLANTICA : COSTA PACIFICA
+    1883 (EURASIA): PARIGI : COSTANTINOPOLI (TURCHIA)
+    1880-1890 (EURASIA): BERLINO : BAGDAD (IRAQ)
+    1885 (CANADA): TRASCONTINENTALE CANADESE
+    1903 (RUSSIA): TRANSIBERIANA RUSSIA
+    DAL 1905 AL 1914 (AMERICA LATINA): ARGENTINA : BOLIVIA : CILE : PARAGUAY
+    (AFRICA): CAIRO : CITTÀ DEL CAPO
+
+-----
+
+flowchart LR
+    0[NAVIGAZIONE \n MARITTIMA]
+    1[NAVI]
+    0 --> |BASATA SULL'UTILIZZO| 1
+
+
+
+
+    10[PRIMA]
+    11[DOPO]
+
+
+
+
+    100[A VAPORE]
+    110[A VELA]
+
+
+
+
+    10 --> 100
+    11 --> 110
+
+
+
+
+    1 --> 10 & 11
+
+
+
+
+    110 --> |INIZIALMENTE| 010 --> 0100
+
+
+
+
+    010[VANTAGGI]
+
+
+
+
+    010 --> 0103
+
+
+
+
+    subgraph 01[" "]
+        0100[PIÙ VELOCI]
+        0100 --> 02
+
+
+
+
+        subgraph 02[" "]
+            direction LR
+            01000[18 NODI]
+            010000[33,33 KM/H]
+
+
+
+
+            01000 --> 010000
+        end
+
+
+
+
+        0103[NON C'È BISOGNO DI]
+
+
+
+
+        0101[COMBUSTIBILE]
+        01010[NAVE MENO PESANTE]
+        01011[NO RIFORNIMENTI]
+
+
+
+
+        0103 --> 0101 --> 01010
+        0101 --> |SENZA IL BISOGNO \n DI UN FERMARSI \n COSTANTEMENTE \n PER EFFETTUARE \n I RIFORNIMENTI| 01011
+
+
+
+
+        0103 --> 0102
+
+
+
+
+        subgraph 03[" "]
+            030[ESEMPIO]
+            0300[MECCANICI]
+
+
+
+
+            030 --> 0300
+        end
+
+
+
+
+        0102[SPECIALIZZATI]
+
+
+
+
+        0102 --> 03
+    end
+
+
+
+
+    20{MA}
+
+
+
+
+    01 --> 20
+
+
+
+
+    subgraph 04[" "]
+        20 --> |AD UN CERTO PUNTO| 20000
+        20000[NON SI POTEVANO PIÙ \n MIGLIORARE/PERFEZIONARE]
+    end
+
+
+
+
+    3{SENZA \n I SEGUENTI}
+
+
+
+
+    100 --> 3 --> |INIZIALMENTE| 010
+
+
+
+
+    4{INVECE}
+
+
+
+
+    subgraph 05[" "]
+        20000 --> 4 --> |TRAMITE L'UTILIZZO \n DELL'APPLICAZIONE \n DELLA SCIENZA ALLA TECNICA \n \n AVVENGONO ULTERIORI \n MIGLIORAMENTI|100
+    end
+
+
+
+
+    050[MIGLIORAMENTI]
+    05 --> 050
+
+
+
+
+    subgraph 06["1860 - 1880"]
+        060[PALE]
+        061[ELICA]
+
+
+
+
+        060 --> |SOSTITUITA CON| 061
+    end
+
+
+
+
+    050 --> 06
+
+
+
+
+    062[INVENZIONE DELLA \n TURBINA]
+
+
+
+
+    050 --> 062
+
+
+
+
+    subgraph 07["SCAFO CAMBIA, PROGRESSIVAMENTE, IL SUO MATERIALE"]
+        070[LEGNO]
+        071[FERRO]
+        072[ACCIAIO]
+
+
+
+
+        070 --> |POI IN| 071 --> |POI IN| 072
+    end
+
+
+
+
+    050 --> 07
+
+-----
+
+pie
+    "navi a vapore": 160000
+    "navi a vela": 4000000
+
+-----
+
+pie
+    "navi a vapore": 17000000
+    "navi a vela": 850000
+
+-----
+
+flowchart
+    0[FLOTTA INGLESE]
+
+
+    1[PRIMA]
+    2[DOPO]
+
+
+    subgraph "1860"
+        subgraph 03[">"]
+            10[NAVI A VELA]
+            030[4 MILIONI \n TONNELLATE]
+
+
+            10 --> 030
+        end
+
+
+        subgraph 04["<"]
+            11[NAVI A VAPORE]
+            040[160 MILA \n TONNELLATE]
+
+
+            11 --> 040
+        end
+    end
+   
+    subgraph "1913"
+        subgraph 01["<"]
+            20[NAVI A VELA]
+            010[850 MILA \n TONNELLATE]
+
+
+            20 --> 010
+        end
+
+
+        subgraph 02[">"]
+            21[NAVI A VAPORE]
+            020[17 MILIONI \n TONNELLATE]
+
+
+            21 --> 020
+        end
+    end
+
+
+
+
+    0 --> 1 & 2
+    1 --> 03 & 04
+    2 --> 01 & 02
+
+-----
+
+timeline
+    title ADOZIONE "FUSO ORARIO"
+    1888: GIAPPONE
+    1891: FRANCIA
+    1892: BELGIO : OLANDA
+    1893: GERMANIA : AUSTRIA : UNGHERIA : ITALIA
+    1901 (PARZIALMENTE): RUSSIA : INDIA
+
+-----
+
+flowchart LR
+    0[IL TEMPO]
+
+
+    1[PRIMA]
+    2[DOPO]
+
+
+    0 --> 1 & 2
+
+
+    10[PROBLEMATICO]
+    1 --> 10
+    100[NON UNIFORMATO]
+    1000((AD ESEMPIO))
+
+
+    100 --> 1000
+
+
+    10 --> 100
+    1 --> 100
+
+
+    subgraph 07[" "]
+        subgraph 01[" "]
+            010[FRANCIA]
+
+
+            010 --> 02 & 03
+
+
+            subgraph 02[" "]
+                020[PARIGI]
+                021[11:00]
+
+
+                020 <--> 021
+            end
+
+
+            subgraph 03[" "]
+                030[BORDEAUX]
+                031[10:55]
+
+
+                030 <--> 031
+            end
+        end
+
+
+        subgraph 04[" "]
+            040[GERMANIA]
+
+
+            040 --> 05 & 06
+
+
+            subgraph 05[" "]
+                050[STOCCALDA]
+                051[05:00]
+
+
+                050 <--> 051
+            end
+
+
+            subgraph 06[" "]
+                060[BERLINO]
+                061[05:10]
+
+
+                060 <--> 061
+            end
+        end
+    end
+
+
+    1000 --> 07
+
+
+    3((QUINDI))
+
+
+    07 --> 3
+
+
+    30[SI CERCA UNA SOLUZIONE]
+    3 --> 30
+    2 --> 3
+
+
+    subgraph 4[" "]
+        40[CHI ERA DANNEGGIATO?]
+        400[COMPAGNIE FERROVIARIE]
+
+
+        40 -->|PRINCIPALMENTE| 400
+    end
+
+
+    30 --> 40
+
+
+    4 -->|A CAUSA| 07
+
+
+    subgraph 5[" "]
+        50[PRIMA CONFERENZA \n INTERNAZIONALE \n SULL'ORA DEL MONDO]
+        51[QUANDO?]
+        510[1884]
+        52[DOVE?]
+        520[WASHINGTON]
+        53[QUANTI PARTECIPANTI?]
+        530[25]
+
+
+        50 --> 51 & 52 & 53
+        51 --> 510
+        52 --> 520
+        53 --> 530
+    end
+
+
+    6[CIOÈ QUALE?]
+
+
+    30 --> 6 --> 50
+
+
+    7((CON QUALI \n RISULTATI?))
+
+
+    5 --> 7
+
+
+    subgraph 8[" "]
+        80[MERIDIANO ZERO]
+        800[GREENWICH]
+
+
+        80 --> |SITUATO A| 800
+
+
+        81[24 FUSI ORARI]
+        810[ORE]
+
+
+        81 -->|DIVISI DALLE| 810
+    end
+
+
+    7 --> 8
+
+-----
+
+flowchart
+    0[PRIMATO INDUSTRIA \n DIVISO FRA]
+
+
+    subgraph 01["TRA OTTOCENTO / NOVECENTO"]
+        1[INGHILTERRA]
+        2[GERMANIA]
+    end
+
+
+    0 --> 01
+
+
+    3{POI}
+    30[AUMENTO DELLE ESPORTAZIONI]
+
+
+    2 --> 3
+
+
+    subgraph 02["1875 / 1895"]
+        020((+30%))
+        0200[DI COSA?]
+
+
+        subgraph 03[" "]
+            02000[FERRO]
+            02001[ACCIAIO]
+        end
+
+
+        0201[A QUALI PAESI?]
+        02010[AUSTRALIA]
+        02011[AMERICA LATINA]
+        02012[CINA]
+
+
+        020 --> 0200 --> 02000 & 02001
+        0201 --> 02010 & 02011 & 02012
+
+
+        03 --> 0201
+    end
+
+
+    30 --> 02
+
+
+    subgraph 04[" "]
+        31[SUPERIORITÀ NEI]
+        subgraph 05[" "]
+            312[SETTORI INDUSTRIALI]
+            3120[PIÙ MODERNI]
+        end
+    end
+
+
+    31 --> 05
+    312 --> 3120
+
+
+    3 --> 30 & 04
+
+
+    310[CHIMICA ORGANICA]
+    311[ATTREZZATURE \n ELETTRICHE]
+
+
+    04 --> 310 & 311
+
+-----
+
+flowchart
+    0[PROCESSO DI \n INDUSTRIALIZZAZIONE]
+
+
+    1[LIBERALE]
+    2[UNA VIA DI MEZZO]
+    3[ORIENTATO DELLO STATO]
+
+
+    0 --> 1 & 2 & 3
+    1 <--> 2 <--> 3
+    1 --> 10 --> 100 & 101
+    1 --> 11 --> 110 --> 01
+    2 --> 20
+    20 --> 200 & 201
+    30 --> 300 & 301 & 302 & 303
+    3 --> 30
+    3 --> 31 --> 310 --> 3100 --> 32 & 33
+    34 --> 33
+    32 --> 34
+
+
+    subgraph 03[" "]
+        10[ESEMPI]
+        100[INGHILTERRA]
+        101[STATI UNITI]
+        11[DA CHI HA VOLUTO?]
+        110[IMPRENDITORI]
+
+
+        subgraph 01[" "]
+            010[RIVENDICANO DIRITTO]
+
+
+            subgraph 02[" "]
+                0100[LIBERTÀ DI]
+                01000[IMPRESA]
+                01001[INIZIATIVA]
+            end
+
+
+            010 --> 02
+            0100 --> 01000 & 01001
+        end
+    end
+
+
+    subgraph 04[" "]
+        20[FRANCIA]
+        200[INIZIATIVA \n PRIVATA]
+        201[INTERVENTO \n STATALE]
+    end
+
+
+    subgraph 05[" "]
+        30[ESEMPI]
+        300[GERMANIA]
+        301[ITALIA]
+        302[GIAPPONE]
+        303[RUSSIA]
+
+
+        31[DA CHI È VOLUTO?]
+        310[STATO]
+        3100[PERCHÉ?]
+        32[COLMARE SVANTAGGIO \n RISPETTO ALTRI STATI]
+        33[FAVORISCE AZIENDE]
+        34[IMPONENDO UNA RAPIDA \n COSTRUZIONE DELLE FERROVIE]
+    end
+
+-----
+
+xychart-beta
+    x-axis [ARGENTO, ORO]
+    y-axis "COMPARAZIONE DEL VALORE DEI 2 METALLI" 1 --> 15
+    bar [1, 15]
+
+-----
+
+flowchart LR
+    01[PRINCIPALI MEZZI \n DI PAGAMENTO]
+
+
+    010[QUALI?]
+
+
+    subgraph 02[" "]
+        0100[ORO]
+        0101[ARGENTO]
+    end
+
+
+    010 --> 0100 & 0101
+
+
+    011{PERCHÉ?}
+
+
+    0110[DISPONIBILITÀ \n SEMPRE STABILE]
+    subgraph 03[" "]
+        01100[CIOÈ]
+        011000{NON}
+        0110000[AUMENTA]
+        0110001[DIMINUISCE]
+    end
+
+
+    011 --> 0110
+    01100 --> 011000 --> 0110000 & 0110001
+    01 --> 010
+    0110 --> 03
+    02 --> 011
+
+-----
+
+flowchart LR
+    0[BASE ECONOMIA \n DEGLI STATI EUROPEI]
+
+
+    1((PRIMA))
+    2((DOPO))
+
+
+    subgraph 03["FINO 1850"]
+        subgraph 01[" "]
+            010[MONOMETTALISMO]
+            0100[UN UNICO METALLO]
+
+
+            010 --> 0100
+        end
+
+
+        subgraph 02[" "]
+            020[BIMETALLISMO]
+            0200[DUE METALLI]
+
+
+            020 --> 0200
+        end
+    end
+
+
+    0 --> 1 & 2
+    1 --> 01 & 02
+
+
+    subgraph 04["DAL 1850 FINO 1914"]
+        subgraph 040[" "]
+            0400[MONOMETTALISMO]
+            04000[''AUREO'']
+        end
+
+
+        subgraph 041[" "]
+            0410[STERLINA]
+
+
+            subgraph 0411[" "]
+                0412[MONETA]
+                0413[INGLESE]
+            end
+        end
+
+
+        subgraph 043[" "]
+            subgraph 042[" "]
+                0420[IL PAESE PIÙ]
+                04200[RICCO]
+                04201[IMPORTANTE]
+            end
+
+
+            0430[CONTROLLAVA \n GRAN PARTE DEI]
+            04300[TRAFFICI]
+            04301[MERCI]
+        end
+    end
+
+
+    0400 --> 04000
+    0412 --> 0413
+    0420 --> 04200 & 04201
+    0410 --> 0411
+
+
+    2 --> 040 & 041
+    0413 --> 0420
+    0430 --> 04300 & 04301
+    042 --> 0430
+
+-----
+
+timeline
+    title ECONOMIA EUROPEA
+   
+    1850 - 1873
+        : SVILUPPO
+    1873 - 1896
+        : CRISI (GRANDE_DEPRESSIONE)
+        : MIGRAZIONE (EUROPA verso USA)
+    1896 - 1910
+        : FORTE RIPRESA
+
+-----
+
+xychart-beta
+    title "NAVI A VAPORE"
+    x-axis      ["PRIMA", "DOPO"]    
+    y-axis      "TONNELLATE"
+    bar         [160000, 17000000]
+    line        [160000, 17000000]
+
+-----
+
+xychart-beta
+    title “NAVI A VELA”
+    x-axis  ["PRIMA", “DOPO”]    
+    y-axis "TONNELLATE"
+    bar     [4000000, 850000]
+    line    [4000000, 850000]
+
+-----
+
+flowchart LR
+    0[SISTEMA INDUSTRIALE]
+
+
+    subgraph 1["1780 - 1830"]
+        10[PRIMA]
+        100[1° RIVOLUZIONE INDUSTRIALE]
+    end
+
+
+    subgraph 2["1880+"]
+        20[DOPO]
+    end
+
+
+    10 --> 100
+    0 --> 1 & 2
+
+
+    11[''TUTTI ERANO \n NEMICI DI TUTTI'']
+    12[LIBERA CONCORRENZA]
+
+
+    11 --> 12
+    1 --> 11 & 12
+
+
+    21[CONCENTRARE \n LA PRODUZIONE]
+
+
+    subgraph 3[" "]
+        22[CON L'OBBIETTIVO]
+        220[AUMENTO GUADAGNI]
+        221[RIDURRE SPESE]
+    end
+
+
+    21 --> 22
+    22 --> 220 & 221
+    221 --> 220
+    2 --> 21
+
+
+    30{QUINDI}
+
+
+    3 --> 30
+
+
+    subgraph 4[" "]
+        31[MENO]
+        310[AZIENDE]
+    end
+
+
+    subgraph 5[" "]
+        32[PIÙ]
+        320[OPERAI]
+        321[PRODUZIONE]
+    end
+
+
+    30 --> 31 & 32
+    31 --> 310
+    32 --> 320 & 321
+
+
+    6{MA}
+
+
+    4 --> 6 --> 5
+
+-----
+
+flowchart LR
+    0[L'ESEMPIO FRANCESE]
+    1[NUMERO]
+    10[AZIENDE]
+    11[OPERAI]
+
+
+    0 --> 1 --> 10 & 11
+
+
+    subgraph " "
+        100[DA]
+        1000[1450000]
+        101[A]
+        1010[800000]
+    end
+
+
+    100 --> 1000
+    101 --> 1010
+    10 --> 100 & 101
+
+
+    subgraph " "
+        110[DA]
+        111[A]
+        1100[650000]
+        1110[950000]
+    end
+
+
+    110 --> 1100
+    111 --> 1110
+    11 --> 110 & 111
+
+-----
+
+xychart-beta
+    title "L'ESEMPIO FRANCESE"
+    x-axis      ["PRIMA", "DOPO"]    
+    y-axis      "NUMERO AZIENDE"
+    bar         [1450000, 800000]
+    line        [1450000, 800000]
+
+-----
+
+xychart-beta
+    title "L'ESEMPIO FRANCESE"
+    x-axis      ["PRIMA", "DOPO"]    
+    y-axis      "NUMERO OPERAI"
+    bar         [650000, 950000]
+    line        [650000, 950000]
+
+-----
+
+flowchart LR
+    0[L'ESEMPIO:\n ALTOFORNI]
+    10[NUMERO ALTOFORNI]
+    11[PRODUZIONE GHISA]
+
+
+    0 --> 10 & 11
+
+
+    subgraph " "
+        100[PRIMA \n 1861]
+        101[DOPO \n 1895]
+        1000[395]
+        1010[95]
+    end
+
+
+    100 --> 1000
+    101 --> 1010
+    10 --> 100 & 101
+
+
+    subgraph " "
+        110[PRIMA \n 1861]
+        111[DOPO \n 1895]
+        1100[967000 \n TONNELLATE]
+        1110[2000000 \n TONNELLATE]
+    end
+
+
+    110 --> 1100
+    111 --> 1110
+    11 --> 110 & 111
+
+-----
+
+xychart-beta
+    title "ESEMPIO: ALTIFORNI"
+    x-axis      ["PRIMA", "DOPO"]    
+    y-axis      "PRODUZIONE DI GHISA (TONNELLATE)"
+    bar         [967000, 2000000]
+    line        [967000, 2000000]
+
+-----
+
+xychart-beta
+    title "ESEMPIO: ALTIFORNI"
+    x-axis      ["PRIMA", "DOPO"]    
+    y-axis      "NUMERO ALTOFORNI IN FUNZIONE"
+    bar         [395, 95]
+    line        [395, 95]
+
+-----
+
+flowchart
+    0[EPOCA DELLE \n GRANDI CONCENTRAZIONI]
+    1[2 ASPETTI]
+
+
+    2[CONCENTRAZIONE \n TRA IMPRESE]
+    3[CONCENTRAZIONE \n FINANZIARIA]
+
+
+    0 --> 1 --> 2 & 3
+    2 --> 01 & 02
+
+
+    subgraph 04[" "]
+        subgraph 091[" "]
+            subgraph 01[" "]
+                20[ORIZZONTALMENTE]
+                200[''FUSIONE'']
+
+
+                20 --> 200
+            end
+
+
+            010[UNIONE]
+            0100[IMPRESE SIMILI]
+            0101[STESSA PRODUZIONE]
+        end
+
+
+        subgraph 09[" "]
+            subgraph 02[" "]
+                21[VERTICALMENTE]
+                210[''TRUST'']
+
+
+                21 --> 210
+            end
+
+
+            subgraph 092[" "]
+                020[UNIONE]
+                0200[IMPRESE COMPLEMENTARI]
+            end
+
+
+            subgraph 03[" "]
+                021[AZIENDA TRASPORTI]
+                022[AZIENDA PRODUZIONE \n GHISA]
+                023[AZIENDA PRODUZIONE \n MACCHINARI]
+
+
+                021 <--> 022 <--> 023
+            end
+
+
+        end
+
+
+        092 -->|ESEMPIO PRATICO| 03
+        010 --> 0100 & 0101
+        0100 --> 0101
+        020 --> 0200
+        01 --> 010
+        02 --> 092
+    end
+
+
+    subgraph 05[" "]
+        subgraph 07[" "]
+            4[''CARTELLO'']
+
+
+            subgraph 40[" "]
+                400[IMPRESA]
+                4000[IMPRESA]
+
+
+                400 <--> |LEGAME| 4000
+            end
+
+
+            41[FISSARE \n UN PREZZO COMUNE \n DI VENDITA]
+
+
+            40 -->|SI IMPEGNANO A|41
+            40 --> 4
+
+
+            41 --> 4
+        end
+
+
+        subgraph 08[" "]
+            subgraph 50[" "]
+                500[IMPRESA]
+                5000[BANCA]
+
+
+                500 <--> |LEGAME| 5000
+            end
+
+
+            51[FINANZIAMENTI]
+
+
+            subgraph 06[" "]
+                52[EFFETTI DEVASTANTI]
+                520[INTROMISSIONE BANCA \n NELLA GESTIONE DELL'INDUSTRIA]
+
+
+                52 --> 520
+            end
+
+
+            50 --> 51 & 06
+
+
+            51 -->|CON QUALE IMPARZIALITÀ?| 06
+        end
+    end
+
+
+    3 --> 40 & 50
+
+-----
+
+flowchart
+    0[DISTANZE RIDOTTE]
+    2[ADESSO]
+
+
+    0 --> 1 & 2
+
+
+    subgraph 012[" "]
+        1[POCO PRIMA]
+        10[FERROVIA]
+       
+        subgraph 01[" "]
+            11[NAVI A VAPORE]
+
+
+            subgraph 011[" "]
+                subgraph 010[" "]
+                    0100[NAVE INGLESE]
+                    01000[''UMBRIA'']
+
+
+                    0100 -->|NOMINATA|01000
+                end
+
+
+                0110[OCEANO \n ATLANTICO]
+
+
+                010 -->|ATTRAVERSA| 0110
+            end
+
+
+            11 --> 011
+        end
+    end
+
+
+    1 --> 10 & 11
+
+
+    20[RETE TELEGRAFICA]
+    2 --> 20
+
+
+    200((A COSA \n SERVE?))
+
+
+    20 --> 200 --> 02
+
+
+    2 -->|OLTRE A| 012
+    subgraph 02[" "]
+        2000[TRASMETTERE]
+
+
+        020[COSA?]
+        0200[INFORMAZIONI]
+        021[IN CHE MODO?]
+        0210[IN TEMPO REALE]
+
+
+        2000 --> 020 & 021
+        020 --> 0200
+        021 --> 0210
+
+
+        0200 --> 021
+    end
+
+-----
+
+flowchart LR
+    subgraph 02[" "]
+        020[DOPO]
+        0200[TELEGRAFO SENZA FILI]
+
+
+
+
+        020 --> 0200
+    end
+
+
+
+
+
+
+
+
+    0212((ALL'INIZIO))
+    021[INVENTATO]
+   
+    subgraph 024[" "]
+        subgraph 022[" "]
+            0210[DA]
+            02100[GUGLIELMO \n MARCONI]
+
+
+
+
+            0210 --> 02100
+        end
+
+
+
+
+        subgraph 023[" "]
+            0211[QUANDO?]
+            02110[1895]
+
+
+
+
+            0211 --> 02110
+        end
+    end
+
+
+
+
+
+
+
+
+    02 --> 0212 --> 021
+    021 --> 022 & 023
+
+
+    subgraph 027[" "]
+        0240[CON QUALCHE SPERIMENTAZIONE...]
+   
+        subgraph 02400[" "]
+            024000[PRIMO MESSAGGIO \n RADIOTELEGRAFICO]
+            0240000[DISTANZA \n 1500 METRI]
+
+
+            024000 --> 0240000
+        end
+
+
+        0240 --> 02400
+    end
+
+
+
+
+    024 --> 027
+
+
+
+
+    025((POI))
+
+
+
+
+    027 & 0212 --> 025
+
+
+
+
+    026[PERFEZIONATO]
+
+
+
+
+    025 --> 026 --> 0261
+
+
+
+
+    subgraph 0261["1901"]
+        02610[CON QUALCHE SPERIMENTAZIONE...]
+        026100[INVIO MESSAGGIO]
+
+
+
+
+        02610 --> 026100 --> 02611
+
+
+
+
+        subgraph 02611[" "]
+            02612[CORNOVAGLIA]
+            02613[TERRANOVA]
+
+
+
+
+            02612 <-->|TRA LE CITTÀ| 02613
+        end
+    end
+
+-----
+
+flowchart
+    0[TELEGRAFO]
+    0 --> 01 & 02
+
+
+    subgraph 01[" "]
+        direction TB
+        010[PRIMA]
+        0100[TELEGRAFO ELETTRICO]
+
+
+        010 --> 0100
+    end
+
+
+    subgraph 02[" "]
+        direction TB
+        020[DOPO]
+        0200[TELEGRAFO SENZA FILI]
+
+
+        020 --> 0200
+    end
+
+-----
+
+timeline
+    title COLLEGAMENTI TELEGRAFO ELETTRICO
+    1860 - 1865:
+        INGHILTERRA : FRANCIA
+    1860 - 1865:
+        MAR DEL NORD : MAR MEDITTERANEO
+    1866:
+        EUROPA : STATI UNITI
+    1902:
+        CANADA : AUSTRALIA
+    1902:
+        STATI UNITI : CINA
+
+-----
+
+flowchart LR
+    0[TELEFONO]
+    1[PRIMA]
+    2{POI}
+
+
+    subgraph 100[" "]
+        10[SPERIMENTAZIONI]
+
+
+        subgraph 105[" "]
+            101[DOVE?]
+            102[GERMANIA]
+
+
+            103[QUANDO?]
+            104[1861]
+        end
+
+
+        101 --> 102
+        103 --> 104
+    end
+
+
+    10 --> 101 & 103
+
+
+    0 --> 1 --> 10
+    0 --> 2
+
+
+    subgraph 23[" "]
+        subgraph 21[" "]
+            20[PRIMA RETE \n TELEFONICA COMMERCIALE]
+            200[CON 21 ABBONATI]
+
+
+            20 --> 200
+        end
+
+
+        subgraph 24[" "]
+            22[DOVE?]
+            220[STATI UNITI]
+
+
+            22 --> 220      
+        end
+
+
+        21 --> 24
+    end
+
+
+    100 --> 2
+    2 --> 23
+
+
+    30{POI}
+
+
+    23 --> 30 --> 32
+
+
+    subgraph 32[" "]
+        31[LINEE INTERURBANE]
+        310[NASCE NEL]
+        3100[1882]
+
+
+        311[SI DIFFONDE]
+        3110[1885]
+
+
+        31 --> 310 & 311
+        310 --> 3100
+        311 --> 3110
+    end
+
+-----
