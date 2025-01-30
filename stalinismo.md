@@ -83,6 +83,7 @@ flowchart LR
         011[...]
         subgraph 012[" "]
             0120[CONTROLLO<br>INDUSTRIE]
+            style 01200 font-size:50px;
             01200((SOVIET))
             0120 -->|da parte dei| 01200
         end
