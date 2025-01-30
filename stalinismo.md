@@ -115,3 +115,24 @@ flowchart LR
 
 ----
 
+```mermaid
+flowchart LR
+    subgraph 0[" "]
+        00[03/1918] -->
+        000[REPUBBLICA <br> DEI SOVIET]
+    end
+    01[NOVITà?]
+    subgraph 013[" "]
+        direction TB;
+        010[DECRETO <br> CHE DAVA]
+        011[CONTROLLO INDUSTRIE]
+        012[TERRE AI LAVORATORI]
+        010 --> 011 & 012
+    end
+    subgraph 014[" "]
+        0140[PROVVEDIMENTI]
+        
+    end
+    0 --> 01 --> 013 & 014
+```
+
