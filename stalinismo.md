@@ -45,6 +45,7 @@ flowchart TB
     end
     03[NOVITà?]
     subgraph 033[" "]
+        direction TB
         030[DECRETO <br> CHE DAVA]
         subgraph 031[" "]
             0310[TERRE] --> |ai| 03100[LAVORATORI]
@@ -52,7 +53,7 @@ flowchart TB
         subgraph 032[" "]
             0320[CONTROLLO<br>INDUSTRIE]
             03200((SOVIET))
-            0320 --> 03200
+            0320 -->|da parte dei| 03200
         end
         030 --> 031 & 032
     end
