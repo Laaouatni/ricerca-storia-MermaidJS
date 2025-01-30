@@ -157,7 +157,14 @@ flowchart LR
             1201 --> 12010
             1200 --> 12000
         end
-        1 --> 10 & 11 & 12
+        13[MATRIMONIO CIVILE]
+        style 13 stroke:#00ff99, stroke-width:5px;
+        subgraph 14[" "]
+            140[DONNA]
+            141[UOMO]
+            140 <-->|STESSO LIVELLO| 141
+        end
+        1 --> 10 & 11 & 12 & 13 & 14
     end
     0 --> 01 --> 013 & 014
 ```
