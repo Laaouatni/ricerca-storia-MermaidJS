@@ -34,16 +34,31 @@ flowchart TB
 ```mermaid
 flowchart TB
     0[RUSSIA]
-    01[PRIMA]
-    010[...]
+    subgraph 01[" "]
+        010[PRIMA] -->
+        0100[...]
+    end
     02[DOPO]
     subgraph 020[" "]
         0200[03/1918] -->
         02000[REPUBBLICA <br> DEI SOVIET]
     end
-
-    0 --> 01 --> 010
+    03[NOVITà?]
+    subgraph 033[" "]
+        030[DECRETO <br> CHE DAVA]
+        subgraph 031[" "]
+            0310[TERRE] --> |ai| 03100[LAVORATORI]
+        end
+        subgraph 032[" "]
+            0320[CONTROLLO<br>INDUSTRIE]
+            03200((SOVIET))
+            0320 --> 03200
+        end
+        030 --> 031 & 032
+    end
+    0 --> 01
     0 --> 02 --> 020
+    020 --> 03 --> 033
 ```
 
 ----
