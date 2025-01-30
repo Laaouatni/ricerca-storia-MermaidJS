@@ -89,16 +89,18 @@ flowchart LR
         010 --> 011 & 012
     end
     014[...]
-    subgraph 02[" "]
-        020[ASSOCIAZIONE <br> OPERAI]
-        021["''PARLAMENTO OPERAI''"]
-        020 <-->021
+    subgraph 05[" "]
+        subgraph 02[" "]
+            020[ASSOCIAZIONE <br> OPERAI]
+            021["''PARLAMENTO OPERAI''"]
+            020 <-->021
+        end
+        03[FORMATO DA <br> RAPPRESENTANTI <BR> DI OGNI FABBRICA]
+        04[RUOLO: <BR> PORTAVOCE DI TUTTA <BR> LA CLASSE OPERAIA]
     end
-    03[FORMATO DA <br> RAPPRESENTANTI <BR> DI OGNI FABBRICA]
-    04[RUOLO: <BR> PORTAVOCE DI TUTTA <BR> LA CLASSE OPERAIA]
     02 --> 03 & 04
     03 --> 04
-    01200 --> 02
+    01200 --> 05
     0 --> 01 --> 010 & 014
 ```
 
