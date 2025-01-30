@@ -148,13 +148,11 @@ flowchart LR
         subgraph 12[" "]
             120[RELIGIONE]
             1200[PRIMA]
+            12000[CHIESA <--> STATO]
+            style 12000 stroke:#ff0000, stroke-width:5px;
             1201[DOPO]
-            %% subgraph 12000[" "]
-            %%     12000[CHIESA]
-            %%     12001[STATO]
-            %%     12000 <--> 12001
-            %% end
             12010[QUESTIONE PRIVATA]
+            style 12010 stroke:#00ff99, stroke-width:5px;
             120 --> 1200 & 1201
             1201 --> 12010
             1200 --> 12000
