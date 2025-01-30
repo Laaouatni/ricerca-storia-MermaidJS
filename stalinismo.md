@@ -168,7 +168,17 @@ flowchart LR
             150[PROCESSO <br> DI NAZIONALIZZAZIONE]
             subgraph 151[" "]
                 1510[PROPRIETà <BR> LE AZIENDE]
+                15100[PRIMA]
+                151000[IMPRENDITORI]
+                style 151000 stroke:#ff0000, stroke-width:5px;
+                15101[DOPO]
+                151010[STATO]
+                style 151010 stroke:#00ff99, stroke-width:5px;
+                1510 --> 15100 & 15101
+                15100 --> 151000
+                15101 --> 151010
             end
+            150 --> 1510
         end
         1 --> 10 & 11 & 12 & 13 & 14
     end
