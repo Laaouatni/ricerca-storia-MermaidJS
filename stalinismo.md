@@ -130,8 +130,11 @@ flowchart LR
         010 --> 011 & 012
     end
     subgraph 014[" "]
-        0140[PROVVEDIMENTI]
-        
+        1[PROVVEDIMENTI]
+        subgraph 10[" "]
+            100[VECCHI TRIBUNALI]
+            101[TRIBUNALI <br> POPOLO]
+        end
     end
     0 --> 01 --> 013 & 014
 ```
