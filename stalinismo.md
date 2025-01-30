@@ -9,8 +9,10 @@ flowchart TB
     end
     02[DOPO]
     subgraph 020[" "]
+        direction TB
         0200[03/1918]
         subgraph 022[" "]
+            direction LR
             02000[REPUBBLICA <br> DEI SOVIET]
             subgraph 021[" "]
                 0210[BOLSCEVICHI]
