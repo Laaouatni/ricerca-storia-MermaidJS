@@ -32,9 +32,10 @@ flowchart TB
 ----
 
 ```mermaid
-flowchart TB
+flowchart LR
     0[RUSSIA]
     subgraph 01[" "]
+        direction LR
         010[PRIMA] -->
         0100[...]
     end
@@ -45,12 +46,14 @@ flowchart TB
     end
     03[NOVITà?]
     subgraph 033[" "]
-        direction TB
+        direction LR
         030[DECRETO <br> CHE DAVA]
         subgraph 031[" "]
+            direction LR
             0310[TERRE] --> |ai| 03100[LAVORATORI]
         end
         subgraph 032[" "]
+            direction LR
             0320[CONTROLLO<br>INDUSTRIE]
             03200((SOVIET))
             0320 -->|da parte dei| 03200
