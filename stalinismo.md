@@ -30,3 +30,21 @@ flowchart TB
 ```
 
 ----
+
+```mermaid
+flowchart TB
+    0[RUSSIA]
+    01[PRIMA]
+    010[...]
+    02[DOPO]
+    subgraph 020[" "]
+        0200[03/1918] -->
+        02000[REPUBBLICA <br> DEI SOVIET]
+    end
+
+    0 --> 01 --> 010
+    0 --> 02 --> 020
+```
+
+----
+
