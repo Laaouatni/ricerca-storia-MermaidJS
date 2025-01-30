@@ -134,10 +134,36 @@ flowchart LR
         subgraph 10[" "]
             100[VECCHI TRIBUNALI]
             style 100 stroke:#ff0000, stroke-width:5px;
-            101[TRIBUNALI <br> POPOLO]
+            101[TRIBUNALI POPOLO]
             style 101 stroke:#00ff99, stroke-width:5px;
             100 -->|SOSTITUITI CON| 101
         end
+        subgraph 11[" "]
+            110[POLIZIA DI PROFESSIONE]
+            style 110 stroke:#ff0000, stroke-width:5px;
+            111[MILIZIA POPOLARE]
+            style 111 stroke:#00ff99, stroke-width:5px;
+            110 -->|SOSTITUITI CON| 111
+        end
+        subgraph 12[" "]
+            120[RELIGIONE]
+            1200[PRIMA]
+            1201[DOPO]
+            subgraph 12000[" "]
+                120000[CHIESA]
+                120001[STATO]
+                120000 <--> 120001
+            end
+            12010[QUESTIONE PRIVATA]
+            120 --> 1200 & 1201
+            
+            %% 120[VECCHI TRIBUNALI]
+            %% style 120 stroke:#ff0000, stroke-width:5px;
+            %% 121[TRIBUNALI POPOLO]
+            %% style 121 stroke:#00ff99, stroke-width:5px;
+            %% 120 -->|SOSTITUITI CON| 121
+        end
+        1 --> 10 & 11
     end
     0 --> 01 --> 013 & 014
 ```
