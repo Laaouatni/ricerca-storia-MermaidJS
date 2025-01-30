@@ -75,7 +75,7 @@ flowchart LR
 ----
 
 ```mermaid
-flowchart TB
+flowchart LR
     0[...] 
     01[NOVITà?]
     subgraph 013[" "]
@@ -94,7 +94,12 @@ flowchart TB
         021["''PARLAMENTO OPERAI''"]
         020 <-->021
     end
-    0 --> 01 --> 013 & 014
+    03[FORMATO DA <br> RAPPRESENTANTI <BR> DI OGNI FABBRICA]
+    04[RUOLO: <BR> PORTAVOCE DI TUTTA <BR> LA CLASSE OPERAIA]
+    02 --> 03 & 04
+    03 --> 04
+    01200 --> 02
+    0 --> 01 --> 010 & 014
 ```
 
 ----
