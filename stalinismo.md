@@ -181,7 +181,7 @@ flowchart LR
             150 --> 1510
         end
         style 14 stroke:#00ff99, stroke-width:5px;
-        1 --> 10 & 11 & 12 & 13 & 14
+        1 --> 10 & 11 & 12 & 13 & 14 & 15
     end
     0 --> 01 --> 013 & 014
 ```
