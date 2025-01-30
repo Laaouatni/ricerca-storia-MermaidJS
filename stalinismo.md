@@ -164,6 +164,12 @@ flowchart LR
             141[UOMO]
             140 <-->|STESSO LIVELLO| 141
         end
+        subgraph 15[" "]
+            150[PROCESSO <br> DI NAZIONALIZZAZIONE]
+            subgraph 151[" "]
+                1510[PROPRIETà <BR> LE AZIENDE]
+            end
+        end
         1 --> 10 & 11 & 12 & 13 & 14
     end
     0 --> 01 --> 013 & 014
