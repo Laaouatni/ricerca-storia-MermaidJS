@@ -96,8 +96,16 @@ flowchart LR
             021["''PARLAMENTO OPERAI''"]
             020 <-->021
         end
-        03[FORMATO DA <br> RAPPRESENTANTI <BR> DI OGNI FABBRICA]
-        04[RUOLO: <BR> PORTAVOCE DI TUTTA <BR> LA CLASSE OPERAIA]
+        subgraph 03[" "]
+            030[FORMATO DA]
+            0300[RAPPRESENTANTI <BR> DI OGNI FABBRICA]
+            030 --> 0300
+        end
+        subgraph 04[" "]
+            040[RUOLO]
+            0400[PORTAVOCE DI TUTTA <BR> LA CLASSE OPERAIA]
+            040 --> 0400
+        end
     end
     02 --> 03 & 04
     03 --> 04
