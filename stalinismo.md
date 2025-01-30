@@ -149,19 +149,15 @@ flowchart LR
             120[RELIGIONE]
             1200[PRIMA]
             1201[DOPO]
-            subgraph 12000[" "]
-                120000[CHIESA]
-                120001[STATO]
-                120000 <--> 120001
-            end
+            %% subgraph 12000[" "]
+            %%     12000[CHIESA]
+            %%     12001[STATO]
+            %%     12000 <--> 12001
+            %% end
             12010[QUESTIONE PRIVATA]
             120 --> 1200 & 1201
-            
-            %% 120[VECCHI TRIBUNALI]
-            %% style 120 stroke:#ff0000, stroke-width:5px;
-            %% 121[TRIBUNALI POPOLO]
-            %% style 121 stroke:#00ff99, stroke-width:5px;
-            %% 120 -->|SOSTITUITI CON| 121
+            1201 --> 12010
+            1200 --> 12000
         end
         1 --> 10 & 11
     end
