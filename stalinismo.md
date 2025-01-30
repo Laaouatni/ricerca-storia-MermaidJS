@@ -133,7 +133,10 @@ flowchart LR
         1[PROVVEDIMENTI]
         subgraph 10[" "]
             100[VECCHI TRIBUNALI]
+            style 100 stroke:#ff0000, stroke-width:5px;
             101[TRIBUNALI <br> POPOLO]
+            style 101 stroke:#00ff99, stroke-width:5px;
+            100 -->|SOSTITUITI CON| 101
         end
     end
     0 --> 01 --> 013 & 014
