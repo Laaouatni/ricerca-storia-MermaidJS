@@ -89,6 +89,11 @@ flowchart TB
         010 --> 011 & 012
     end
     014[...]
+    subgraph 02[" "]
+        020[ASSOCIAZIONE <br> OPERAI]
+        021["''PARLAMENTO OPERAI''"]
+        020 <-->021
+    end
     0 --> 01 --> 013 & 014
 ```
 
