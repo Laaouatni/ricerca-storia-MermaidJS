@@ -74,3 +74,23 @@ flowchart LR
 
 ----
 
+```mermaid
+flowchart TB
+    0[...] 
+    01[NOVITà?]
+    subgraph 013[" "]
+        010[DECRETO <br> CHE DAVA]
+        011[...]
+        subgraph 012[" "]
+            0120[CONTROLLO<br>INDUSTRIE]
+            01200((SOVIET))
+            0120 -->|da parte dei| 01200
+        end
+        010 --> 011 & 012
+    end
+    014[...]
+    0 --> 01 --> 013 & 014
+```
+
+----
+
