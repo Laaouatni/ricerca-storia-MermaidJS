@@ -237,7 +237,7 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    4[...] 
+    4[...]
     4 --> 020
     subgraph 020[" "]
         0200[REAZIONE <br> VIOLENTA]
@@ -299,6 +299,41 @@ flowchart TB
         21 --> 22
         24 --> 26 --> 25
     end
+```
+
+----
+
+
+----
+
+```mermaid
+flowchart TB
+    0[RICAPITOLANDO]
+    subgraph 1["RICAPITOLANDO"]
+        01[IMPERO ZARISTA]
+        subgraph 02[" "]
+            020[REPUBBLICA <br> DEI SOVIET]
+            021[MOLTE NOVITà]
+            020 --> 021
+        end
+        subgraph 03[" "]
+            030[REAZIONE VIOLENTA <br> DELL'ESERCITO RUSSO]
+            031[...]
+            032[...]
+            subgraph 033[" "]
+                0330[ALTRI PAESI <BR> SI PREOCCUPANO]
+                03300[AIUTANO L'ESERCITO RUSSO]
+                0330 --> 03300
+            end
+            030 --> 031 & 032
+            032 --> 033
+        end
+        04[REAZIONE BOLSCEVICHI]
+        style 04 font-size:50px;
+        05[...]
+        01 --> 02 --> 03 --> 04 --> 05
+    end
+    0 --> 1
 ```
 
 ----
