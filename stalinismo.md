@@ -228,8 +228,36 @@ flowchart LR
         040[...]
         041[...]
         04 --> 040 & 041
+        020 --> 04  
     end
     02 -->|OVVIAMENTE| 022
-    020 --> 04
 ```
+
+----
+
+```mermaid
+flowchart LR
+    subgraph 022[" "]
+        subgraph 020[" "]
+            0200[REAZIONE <br> VIOLENTA]
+            subgraph 021[" "]
+                direction TB;
+                0210[ESERCITO RUSSO]
+                02100["(PRIMA) AVEVA <BR> TANTI PRIVILEGI"]
+                02101[MOLTO FEDELE <BR> ALLA MONARCHIA <BR> DA SECOLI]
+                0210 --> 02100 & 02101
+            end
+            0200 -->|DA PARTE DI| 021
+        end
+        04{COME?}
+        040[...]
+        041[...]
+        04 --> 040 & 041
+        020 --> 04  
+    end
+```
+
+----
+
+
 
