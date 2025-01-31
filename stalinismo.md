@@ -186,3 +186,26 @@ flowchart LR
     0 --> 01 --> 013 & 014
 ```
 
+---
+
+```mermaid
+flowchart LR
+    subgraph 0[" "]
+        01[TANTE NOVITà]
+        subgraph 010[" "]
+            0100[PROVVEDIMENTI]
+            01000[...]
+            01001[...]
+            01002[...]
+            0100 --> 01000 & 01001 & 01002
+        end
+        subgraph 011[" "]
+            0110[DECRETO]
+            01100[...]
+            01101[...]
+            0110 --> 01100 & 01101
+        end
+        01 --> 010 & 011
+    end
+```
+
