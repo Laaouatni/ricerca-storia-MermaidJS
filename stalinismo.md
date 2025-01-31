@@ -273,18 +273,28 @@ flowchart LR
             2000[SIBERIA]
             200 --> 2000
         end
-        21[AIUTATI DA CHI?]
-        subgraph 22[" "]
-            23[POTENTI ALLEATI]
-            230[FRANCIA]
-            231[INGHILTERRA]
-            232[STATI UNITI]
-            233[ITALIA]
-            234[GIAPPONE]
-            23 --> 230 & 231 & 232 & 233 & 234
+        subgraph 24[" "]
+            21[AIUTATI <br> DA CHI?]
+            subgraph 22[" "]
+                23[POTENTI ALLEATI]
+                230[FRANCIA]
+                231[INGHILTERRA]
+                232[STATI UNITI]
+                233[ITALIA]
+                234[GIAPPONE]
+                23 --> 230 & 231 & 232 & 233 & 234
+            end
+        end
+        26["PERCHè?"]
+        subgraph 25[" "]
+            250[LE POTENZE <BR> ERANO PREUCCOPATI DA:]
+            2500[DAL SUCCESSO DELLO STATO SOCIALISTA]
+            2501[DALLA POSSIBILITà DI <BR> UNA RIVOLUZIONE <BR> NEL LORO PAESE]
+            250 --> 2500 & 2501
+            2500 -->|QUINDI| 2501
         end
         20 --> 21 --> 22
-        
+        24 --> 26 --> 25
     end
 ```
 
