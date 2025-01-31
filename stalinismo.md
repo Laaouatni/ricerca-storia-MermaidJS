@@ -273,6 +273,18 @@ flowchart LR
             2000[SIBERIA]
             200 --> 2000
         end
+        21[AIUTATI DA CHI?]
+        subgraph 22[" "]
+            23[POTENTI ALLEATI]
+            230[FRANCIA]
+            231[INGHILTERRA]
+            232[STATI UNITI]
+            233[ITALIA]
+            234[GIAPPONE]
+            23 --> 230 & 231 & 232 & 233 & 234
+        end
+        20 --> 21 --> 22
+        
     end
 ```
 
