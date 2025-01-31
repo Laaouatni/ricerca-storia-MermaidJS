@@ -190,6 +190,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+    03[...]
     subgraph 0[" "]
         01[TANTE NOVITà]
         subgraph 010[" "]
@@ -207,5 +208,9 @@ flowchart LR
         end
         01 --> 010 & 011
     end
+    02{QUINDI}
+    03 --> 0 --> 02
+    020[REAZIONE <br> VIOLENTA]
+    02 -->|OVVIAMENTE| 020
 ```
 
