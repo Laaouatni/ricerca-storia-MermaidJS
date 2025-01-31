@@ -304,8 +304,6 @@ flowchart TB
 ----
 
 
-----
-
 ```mermaid
 flowchart TB
     0[RICAPITOLANDO]
