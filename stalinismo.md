@@ -236,7 +236,7 @@ flowchart LR
 ----
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph 020[" "]
         0200[REAZIONE <br> VIOLENTA]
         subgraph 021[" "]
