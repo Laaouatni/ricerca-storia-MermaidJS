@@ -210,21 +210,23 @@ flowchart LR
     end
     02{QUINDI}
     03 --> 0 --> 02
-    subgraph 020[" "]
-        0200[REAZIONE <br> VIOLENTA]
-        subgraph 021[" "]
-            0210[ESERCITO RUSSO]
-            02100["(PRIMA) AVEVA <BR> TANTI PRIVILEGI"]
-            02101[MOLTO FEDELE <BR> ALLA MONARCHIA <BR> DA SECOLI]
-            0210 --> 02100 & 02101
+    subgraph 022[" "]
+        subgraph 020[" "]
+            0200[REAZIONE <br> VIOLENTA]
+            subgraph 021[" "]
+                0210[ESERCITO RUSSO]
+                02100["(PRIMA) AVEVA <BR> TANTI PRIVILEGI"]
+                02101[MOLTO FEDELE <BR> ALLA MONARCHIA <BR> DA SECOLI]
+                0210 --> 02100 & 02101
+            end
+            0200 --> 021
         end
-        0200 --> 021
+        04{COME?}
+        040[...]
+        041[...]
+        04 --> 040 & 041
     end
     02 -->|OVVIAMENTE| 020
-    04{COME?}
     020 --> 04
-    040[...]
-    041[...]
-    04 --> 040 & 041
 ```
 
