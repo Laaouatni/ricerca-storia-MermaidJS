@@ -309,14 +309,16 @@ flowchart TB
 ```mermaid
 flowchart TB
     0[RICAPITOLANDO]
-    subgraph 1["RICAPITOLANDO"]
-        01[IMPERO ZARISTA]
-        subgraph 02[" "]
+    subgraph 1[" "]
+        subgraph 2["1"]
+            01[IMPERO ZARISTA]
+        end
+        subgraph 02["2"]
             020[REPUBBLICA <br> DEI SOVIET]
             021[MOLTE NOVITà]
             020 --> 021
         end
-        subgraph 03[" "]
+        subgraph 03["3"]
             030[REAZIONE VIOLENTA <br> DELL'ESERCITO RUSSO]
             031[...]
             032[...]
@@ -328,8 +330,10 @@ flowchart TB
             030 --> 031 & 032
             032 --> 033
         end
-        04[REAZIONE BOLSCEVICHI]
-        style 04 font-size:50px;
+        subgraph 3["4"]
+            04[REAZIONE BOLSCEVICHI]
+            style 04 font-size:50px;
+        end
         05[...]
         01 --> 02 --> 03 --> 04 --> 05
     end
