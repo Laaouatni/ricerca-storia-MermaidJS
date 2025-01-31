@@ -258,6 +258,7 @@ flowchart LR
             10000[TRUPPE <BR> CONTRO-RIVOLUZIONARIE]
             1000 -->|CHE SONO| 10000
         end
+        style 100 stroke:#FFFFFF, stroke-width:5px;
         subgraph 101[" "]
             1010[ARMATE ROSSE]
             10100[BOLSCEVICHI]
