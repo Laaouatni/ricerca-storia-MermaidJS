@@ -237,23 +237,37 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph 022[" "]
-        subgraph 020[" "]
-            0200[REAZIONE <br> VIOLENTA]
-            subgraph 021[" "]
-                direction TB;
-                0210[ESERCITO RUSSO]
-                02100["(PRIMA) AVEVA <BR> TANTI PRIVILEGI"]
-                02101[MOLTO FEDELE <BR> ALLA MONARCHIA <BR> DA SECOLI]
-                0210 --> 02100 & 02101
-            end
-            0200 -->|DA PARTE DI| 021
+    subgraph 020[" "]
+        0200[REAZIONE <br> VIOLENTA]
+        subgraph 021[" "]
+            direction TB;
+            0210[ESERCITO RUSSO]
+            02100["(PRIMA) AVEVA <BR> TANTI PRIVILEGI"]
+            02101[MOLTO FEDELE <BR> ALLA MONARCHIA <BR> DA SECOLI]
+            0210 --> 02100 & 02101
         end
-        04{COME?}
-        040[...]
-        041[...]
-        04 --> 040 & 041
-        020 --> 04  
+        0200 -->|DA PARTE DI| 021
+    end
+    04((COME?))
+    04 --> 1 & 2
+    020 --> 04  
+    subgraph 1[" "]
+        10[SI FORMANO <br> LE ARMATE]
+        subgraph 100[" "]
+            1000[ARMATE BIANCHE]
+            10000[TRUPPE <BR> CONTRO-RIVOLUZIONARIE]
+            1000 -->|CHE SONO| 10000
+        end
+        subgraph 101[" "]
+            1010[ARMATE ROSSE]
+            10100[BOLSCEVICHI]
+            1010 -->|DEI| 10100
+        end
+        10 --> 100 & 101
+        100 --> |CONTRO| 101
+    end
+    subgraph 2[" "]
+        %% 20[SI FORMANO]
     end
 ```
 
