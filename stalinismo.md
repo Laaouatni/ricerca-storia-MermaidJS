@@ -222,7 +222,7 @@ flowchart LR
                 02101[MOLTO FEDELE <BR> ALLA MONARCHIA <BR> DA SECOLI]
                 0210 --> 02100 & 02101
             end
-            0200 --> 021
+            0200 -->|DA PARTE DI| 021
         end
         04{COME?}
         040[...]
