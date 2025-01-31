@@ -237,6 +237,8 @@ flowchart LR
 
 ```mermaid
 flowchart TB
+    4[...] 
+    4 --> 020
     subgraph 020[" "]
         0200[REAZIONE <br> VIOLENTA]
         subgraph 021[" "]
@@ -248,7 +250,7 @@ flowchart TB
         end
         0200 -->|DA PARTE DI| 021
     end
-    04((COME?))
+    04{COME?}
     04 --> 1 & 2
     020 --> 04  
     subgraph 1[" "]
