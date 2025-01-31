@@ -194,6 +194,7 @@ flowchart LR
     subgraph 0[" "]
         01[TANTE NOVITà]
         subgraph 010[" "]
+            direction TB;
             0100[PROVVEDIMENTI]
             01000[...]
             01001[...]
@@ -201,6 +202,7 @@ flowchart LR
             0100 --> 01000 & 01001 & 01002
         end
         subgraph 011[" "]
+            direction TB;
             0110[DECRETO]
             01100[...]
             01101[...]
@@ -214,6 +216,7 @@ flowchart LR
         subgraph 020[" "]
             0200[REAZIONE <br> VIOLENTA]
             subgraph 021[" "]
+                direction TB;
                 0210[ESERCITO RUSSO]
                 02100["(PRIMA) AVEVA <BR> TANTI PRIVILEGI"]
                 02101[MOLTO FEDELE <BR> ALLA MONARCHIA <BR> DA SECOLI]
@@ -226,7 +229,7 @@ flowchart LR
         041[...]
         04 --> 040 & 041
     end
-    02 -->|OVVIAMENTE| 020
+    02 -->|OVVIAMENTE| 022
     020 --> 04
 ```
 
