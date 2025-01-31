@@ -268,7 +268,11 @@ flowchart LR
         100 --> |CONTRO| 101
     end
     subgraph 2[" "]
-        %% 20[SI FORMANO]
+        subgraph 20[" "]
+            200[CONTROLLO <br> REGIONE]
+            2000[SIBERIA]
+            200 --> 2000
+        end
     end
 ```
 
