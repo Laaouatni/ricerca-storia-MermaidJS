@@ -24,13 +24,13 @@ flowchart TB;
   end
 
   subgraph 3[" "]
-    1[VITTORIA]
-    style 1 stroke:#ff0000,stroke-width:5px, font-size:30px;
+    1[VITTORIA DELLO <BR> STATO DI LENIN]
+    style 1 stroke:#ff0000,stroke-width:5px, font-size:25px;
     subgraph 30[" "]
       2{PERÒ}
       20[SITUAZIONE DESOLANTE]
     end
-    0210 --> 1
+    021 --> 1
     1 --> 2 -->|PURTROPPO| 20
   end
 ```
