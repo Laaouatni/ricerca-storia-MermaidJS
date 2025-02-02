@@ -9,6 +9,6 @@ flowchart TB;
       010 --> 011
     end
     02[GUERRA CIVILE]
-    01 <--> 02
+    02 <--> 01
   end
 ```
