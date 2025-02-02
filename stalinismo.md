@@ -465,9 +465,15 @@ flowchart TB
                     51[SVINCOLATI <br> DAL CONTROLLO]
                 end
                 3150 --> 50 & 51
-                5 -->|CON IL COMPITO| 42
-
-                60[CONTRO COMPORTAMENTI DANNOSI <br> DI INDIVIDUI O DI UN GRUPPO]
+                5 --> 6
+                6{CONTRO}
+                subgraph 60[" "]
+                    600[COMPORTAMENTI DANNOSI DI]
+                    601[INDIVIDUI]
+                    602[GRUPPI / COLLETTIVITà]
+                    600 --> 601 & 602
+                end
+                6 --> 60 & 42
             end
             310 --> 311 --> 312 & 3150
         end
