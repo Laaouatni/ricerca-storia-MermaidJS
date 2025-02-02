@@ -377,6 +377,14 @@ flowchart TB
             200 --> 21
         end
         style 20 stroke:#ff0000, stroke-width:5px;
+        subgraph 25[" "]
+            250[LE POTENZE <BR> ERANO PREUCCOPATI DA:]
+            2500[DAL SUCCESSO DELLO STATO SOCIALISTA]
+            2501[DALLA POSSIBILITà DI <BR> UNA RIVOLUZIONE <BR> NEL LORO PAESE]
+            250 --> 2500 & 2501
+            2500 -->|QUINDI| 2501
+        end
+        211 <-->|PERCHè| 25
     end
     0 --> 13
 ```
