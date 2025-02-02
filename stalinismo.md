@@ -347,6 +347,7 @@ flowchart TB
 flowchart TB
     0[REAZIONE BOLSCEVICHI]
     subgraph 13[" "]
+        direction TB;
         subgraph 1[" "]
             10[16/07/1918]
             subgraph 11[" "]
@@ -360,7 +361,7 @@ flowchart TB
         end
         subgraph 12[" "]
             120[NESSUNA POSSIBILITà]
-            121[RITORNO MONARCHIA]
+            121[RITORNO ALLA MONARCHIA]
             120 --> |DI| 121
         end
         1 <-->|DI CONSEGUENZA| 12 
@@ -384,7 +385,7 @@ flowchart TB
             250 --> 2500 & 2501
             2500 -->|QUINDI| 2501
         end
-        211 <-->|PERCHè| 25
+        20 <-->|PERCHè| 25
     end
     0 --> 13 & 2
 ```
