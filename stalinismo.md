@@ -371,21 +371,29 @@ flowchart TB
             200((NO))
             style 200 stroke:#ff0000, stroke-width:5px, font-size:50px;
             subgraph 21[" "]
-                210[RELAZIONI DIPLOMATICHE CON LE]
+                210[RELAZIONI DIPLOMATICHE]
                 211[POTENZE EUROPEE]
-                210 --> 211
+                210 -->|CON LE| 211
             end
             200 --> 21
         end
         style 20 stroke:#ff0000, stroke-width:5px;
-        subgraph 25[" "]
-            250[LE POTENZE <BR> ERANO PREUCCOPATI DA:]
-            2500[DAL SUCCESSO DELLO STATO SOCIALISTA]
-            2501[DALLA POSSIBILITà DI <BR> UNA RIVOLUZIONE <BR> NEL LORO PAESE]
-            250 --> 2500 & 2501
-            2500 -->|QUINDI| 2501
+        subgraph 27[" "]
+            subgraph 25[" "]
+                250[LE POTENZE <BR> ERANO PREUCCOPATI DA:]
+                2500[DAL SUCCESSO DELLO STATO SOCIALISTA]
+                2501[DALLA POSSIBILITà DI <BR> UNA RIVOLUZIONE <BR> NEL LORO PAESE]
+                250 --> 2500 & 2501
+                2500 -->|QUINDI| 2501
+            end
+            subgraph 28[" "]
+                280[AIUTANO <br> L'ESERCITO RUSSO]
+                281[CONTROLLO SIBERIA]
+                280 --> 281
+            end
+            25 -->|ECCO PERCHè| 28
         end
-        20 <-->|PERCHè| 25
+        20 <-->|PERCHè| 27
     end
     0 --> 13 & 2
 ```
