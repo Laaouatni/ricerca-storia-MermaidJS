@@ -25,4 +25,7 @@ flowchart TB;
   1[VITTORIA]
   style 1 stroke:#ff0000,stroke-width:5px, font-size:30px;
   0210 --> 1
+  2{PERÒ}
+  20[SITUAZIONE DESOLANTE]
+  1 --> 2 -->|PURTROPPO| 20
 ```
