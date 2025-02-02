@@ -441,14 +441,25 @@ flowchart TB
                     410[4.5 Milioni]
                     4 -->|IN TOTALE SONO| 410
                 end
-                312 --> 41
+                subgraph 42[" "]
+                    420[COMPITO]
+                    4200[RESPINGERE <br> LO STRANIERO]
+                    subgraph 4201[" "]
+                        42010[ANNIETARE]
+                        42011[ARMATA BIANCA]
+                        42010 --> 42011
+                    end
+                    420 --> 4200 & 4201
+                end
+                312 --> 41 & 42
+                41 -->|CHE HANNO IL COMPITO DI| 42
             end
             subgraph 315[" "]
                 313[POLIZIA CEKA]
                 3130[...]
                 313 --> 3130
             end
-            310 --> 311 --> 314 & 315
+            310 --> 311 --> 312 & 313
         end
         30 --> 31
     end
