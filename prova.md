@@ -1,6 +1,7 @@
 ```mermaid
-flowchart TB;
+flowchart LR;
   subgraph 0[" "]
+    direction TB;
     subgraph 01[" "]
       direction LR;
       010[1918]
@@ -32,5 +33,15 @@ flowchart TB;
     end
     1 --> 2 -->|PURTROPPO| 20
   end
-  021 --> 3
+  0 --> 3
+
+  4{COME?}
+  20 --> 4
+  subgraph 5[" "]
+    50[...]
+    51[...]
+    53[...]
+  end
+  4 --> 50 & 51 & 53
+
 ```
