@@ -427,6 +427,7 @@ flowchart TB
     subgraph 3[" "]
         30[INTRODOTTO]
         subgraph 31[" "]
+            direction LR;
             310[TERRORE <BR> CONTRO NEMICI]
             311((TRAMITE))
             subgraph 314[" "]
@@ -466,7 +467,7 @@ flowchart TB
                 end
                 3150 --> 50 & 51
                 5 --> 6
-                6{CONTRO}
+                6((CONTRO))
                 subgraph 60[" "]
                     600[COMPORTAMENTI DANNOSI DI]
                     601[INDIVIDUI]
