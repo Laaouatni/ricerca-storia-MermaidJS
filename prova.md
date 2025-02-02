@@ -30,7 +30,7 @@ flowchart TB;
       2{PERÒ}
       20[SITUAZIONE DESOLANTE]
     end
-    021 --> 1
     1 --> 2 -->|PURTROPPO| 20
   end
+  021 --> 3
 ```
