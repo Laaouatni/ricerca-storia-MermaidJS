@@ -367,12 +367,16 @@ flowchart TB
     end
     subgraph 2[" "]
         subgraph 20[" "]
-            200[NO]
+            200((NO))
+            style 200 stroke:#ff0000, stroke-width:5px, font-size:50px;
             subgraph 21[" "]
                 210[RELAZIONI DIPLOMATICHE CON LE]
                 211[POTENZE EUROPEE]
+                210 --> 211
             end
+            200 --> 21
         end
+        style 20 stroke:#ff0000, stroke-width:5px;
     end
     0 --> 13
 ```
