@@ -16,6 +16,7 @@ flowchart TB;
       subgraph 021[" "]
         direction LR;
         0210[ARMATE ROSSE]
+        style 0210 stroke:#ff0000,stroke-width:5px, font-size:30px;
         0211[ARMATE BIANCHE]
         0210 <-->|CONTRO| 0211
       end
