@@ -455,11 +455,13 @@ flowchart TB
                 41 -->|CHE HANNO IL COMPITO DI| 42
             end
             subgraph 315[" "]
-                313[POLIZIA CEKA]
-                3130[...]
-                313 --> 3130
+                subgraph 3150[" "]
+                    313[POLIZIA CEKA]
+                    3130[POLIZIA <br> POLITICA <br> BOLSCEVICA]
+                    313 --> 3130
+                end
             end
-            310 --> 311 --> 312 & 313
+            310 --> 311 --> 312 & 3150
         end
         30 --> 31
     end
