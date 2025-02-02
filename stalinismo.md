@@ -340,6 +340,33 @@ flowchart TB
 
 ----
 
-<!-- domani facciamo dalla 4 in poi -->
+
+----
+
+```mermaid
+flowchart TB
+    0[REAZIONE BOLSCEVICHI]
+    subgraph 1[" "]
+        10[16/07/1918]
+        subgraph 11[" "]
+            110[FUCILATI]
+            1100[ZAR]
+            1101[FAMIGLIA]
+            110 --> 1100 & 1101
+            1101 -->|DELLO| 1100
+        end
+        10 --> 11
+    end
+    subgraph 12[" "]
+        120[NESSUNA POSSIBILITà]
+        121[RITORNO MONARCHIA]
+        120 --> |DI| 121
+    end
+    1 <--> 12 
+```
+
+----
+
+
 
 
