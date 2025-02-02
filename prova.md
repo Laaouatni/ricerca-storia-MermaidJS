@@ -22,10 +22,15 @@ flowchart TB;
       020 --> 021
     end
   end
-  1[VITTORIA]
-  style 1 stroke:#ff0000,stroke-width:5px, font-size:30px;
-  0210 --> 1
-  2{PERÒ}
-  20[SITUAZIONE DESOLANTE]
-  1 --> 2 -->|PURTROPPO| 20
+
+  subgraph 3[" "]
+    1[VITTORIA]
+    style 1 stroke:#ff0000,stroke-width:5px, font-size:30px;
+    subgraph 30[" "]
+      2{PERÒ}
+      20[SITUAZIONE DESOLANTE]
+    end
+    0210 --> 1
+    1 --> 2 -->|PURTROPPO| 20
+  end
 ```
