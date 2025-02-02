@@ -1,7 +1,6 @@
 ```mermaid
 flowchart TB;
   subgraph 0[" "]
-    direction TB;
     subgraph 01[" "]
       direction LR;
       010[1918]
@@ -24,6 +23,6 @@ flowchart TB;
     end
   end
   1[VITTORIA]
-  style 1 font-size:30px;
+  style 1 stroke:#ff0000,stroke-width:5px, font-size:30px;
   0210 --> 1
 ```
