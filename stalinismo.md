@@ -392,12 +392,32 @@ flowchart TB
         end
         20 <-->|PERCHè| 27
     end
-    0 --> 13 & 2
+    subgraph 3[" "]
+        30[INTRODOTTO]
+        subgraph 31[" "]
+            310[TERRORE <BR> CONTRO NEMICI]
+            311((TRAMITE))
+            subgraph 314[" "]
+                312[ARMATA ROSSA]
+                3120[...]
+                312 --> 3120
+            end
+            subgraph 315[" "]
+                313[POLIZIA CEKA]
+                3130[...]
+                313 --> 3130
+            end
+            310 --> 311 --> 314 & 315
+        end
+        30 --> 31
+    end
+    0 --> 13 & 2 & 3
 ```
 
 ----
 
 ```mermaid
+
 ```
 
 
