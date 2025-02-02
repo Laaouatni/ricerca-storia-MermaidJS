@@ -340,9 +340,6 @@ flowchart TB
 
 ----
 
-
-----
-
 ```mermaid
 flowchart TB
     0[REAZIONE BOLSCEVICHI]
@@ -399,6 +396,9 @@ flowchart TB
 ```
 
 ----
+
+```mermaid
+```
 
 
 
