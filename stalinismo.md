@@ -364,6 +364,7 @@ flowchart TB
         1 <-->|DI CONSEGUENZA| 12 
     end
     subgraph 2[" "]
+        direction TB;
         subgraph 20[" "]
             200((NO))
             style 200 stroke:#ff0000, stroke-width:5px, font-size:50px;
@@ -376,6 +377,7 @@ flowchart TB
         end
         style 20 stroke:#ff0000, stroke-width:5px;
         subgraph 27[" "]
+            direction TB;
             subgraph 25[" "]
                 250[LE POTENZE <BR> ERANO PREUCCOPATI DA:]
                 2500[DAL SUCCESSO DELLO STATO SOCIALISTA]
@@ -395,6 +397,7 @@ flowchart TB
     subgraph 3[" "]
         30[INTRODOTTO]
         subgraph 31[" "]
+            direction LR;
             310[TERRORE <BR> CONTRO NEMICI]
             311((TRAMITE))
             subgraph 314[" "]
