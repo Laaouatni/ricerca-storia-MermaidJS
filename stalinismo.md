@@ -481,8 +481,16 @@ flowchart TB
             direction LR;
             310[TERRORE <BR> CONTRO NEMICI]
             311((TRAMITE))
-            312[ARMATA ROSSA]
-            313[POLIZIA CEKA]
+            subgraph 3110[" "]
+                312[ARMATA ROSSA]
+                3120[...]
+                312 --> 3120
+            end
+            subgraph 3111[" "]
+                313[POLIZIA CEKA]
+                3130[...]
+                313 --> 3130
+            end
         end
         30 --> 310 --> 311 --> 312 & 313
     end
