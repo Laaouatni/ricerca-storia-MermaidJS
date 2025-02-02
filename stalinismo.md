@@ -431,8 +431,17 @@ flowchart TB
             311((TRAMITE))
             subgraph 314[" "]
                 312[ARMATA ROSSA]
-                3120[...]
-                312 --> 3120
+                subgraph 41[" "]
+                    subgraph 4[" "]
+                        40[FORMATA DA]
+                        400[OPERAI]
+                        401[CONTADINI]
+                        40 --> 400 & 401
+                    end
+                    410[4.5 Milioni]
+                    4 -->|IN TOTALE SONO| 410
+                end
+                312 --> 41
             end
             subgraph 315[" "]
                 313[POLIZIA CEKA]
