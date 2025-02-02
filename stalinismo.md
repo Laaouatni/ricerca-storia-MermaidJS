@@ -363,8 +363,18 @@ flowchart TB
             121[RITORNO MONARCHIA]
             120 --> |DI| 121
         end
-        1 <--> 12 
+        1 <-->|DI CONSEGUENZA| 12 
     end
+    subgraph 2[" "]
+        subgraph 20[" "]
+            200[NO]
+            subgraph 21[" "]
+                210[RELAZIONI DIPLOMATICHE CON LE]
+                211[POTENZE EUROPEE]
+            end
+        end
+    end
+    0 --> 13
 ```
 
 ----
