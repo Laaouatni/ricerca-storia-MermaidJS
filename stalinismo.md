@@ -481,6 +481,27 @@ flowchart TB
             direction LR;
             310[TERRORE <BR> CONTRO NEMICI]
             311((TRAMITE))
+            312[ARMATA ROSSA]
+            313[POLIZIA CEKA]
+        end
+        30 --> 310 --> 311 --> 312 & 313
+    end
+    0 --> 1 & 2 & 3
+```
+
+----
+
+```mermaid
+flowchart TB
+    0[REAZIONE BOLSCEVICHI]
+    1[...]
+    2[...]
+    subgraph 3[" "]
+        30[INTRODOTTO]
+        subgraph 31[" "]
+            direction LR;
+            310[TERRORE <BR> CONTRO NEMICI]
+            311((TRAMITE))
             subgraph 314[" "]
                 312[ARMATA ROSSA]
                 subgraph 41[" "]
