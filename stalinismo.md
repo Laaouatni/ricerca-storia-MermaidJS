@@ -460,6 +460,14 @@ flowchart TB
                     3130[POLIZIA <br> POLITICA <br> BOLSCEVICA]
                     313 --> 3130
                 end
+                subgraph 5[" "]
+                    50[POTERI ENORMI]
+                    51[SVINCOLATI <br> DAL CONTROLLO]
+                end
+                3150 --> 50 & 51
+                5 -->|CON IL COMPITO| 42
+
+                60[CONTRO COMPORTAMENTI DANNOSI <br> DI INDIVIDUI O DI UN GRUPPO]
             end
             310 --> 311 --> 312 & 3150
         end
