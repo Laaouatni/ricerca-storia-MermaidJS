@@ -303,6 +303,57 @@ flowchart TB
 
 ----
 
+```mermaid
+flowchart TB
+    0[...]
+    01{COME}
+    02[...]
+    subgraph 1[" "]
+        10[SI FORMANO <br> LE ARMATE]
+        subgraph 100[" "]
+            1000[ARMATE BIANCHE]
+            10000[TRUPPE <BR> CONTRO-RIVOLUZIONARIE]
+            1000 -->|CHE SONO| 10000
+        end
+        style 100 stroke:#FFFFFF, stroke-width:5px;
+        subgraph 101[" "]
+            1010[ARMATE ROSSE]
+            10100[BOLSCEVICHI]
+            1010 -->|DEI| 10100
+        end
+        subgraph 2[" "]
+            style 101 stroke:#FF0000, stroke-width:5px;
+            subgraph 41[" "]
+                subgraph 4[" "]
+                    40[FORMATA DA]
+                    400[OPERAI]
+                    401[CONTADINI]
+                    40 --> 400 & 401
+                end
+                410[4.5 Milioni]
+                4 -->|IN TOTALE SONO| 410
+            end
+            subgraph 42[" "]
+                420[COMPITO]
+                4200[RESPINGERE <br> LO STRANIERO]
+                subgraph 4201[" "]
+                    42010[ANNIETARE]
+                    42011[ARMATA BIANCA]
+                    42010 --> 42011
+                end
+                420 --> 4200 & 4201
+            end
+            41 -->|CHE HANNO IL COMPITO DI| 42
+        end
+    end
+    101 --> 41 & 42
+    10 --> 100 & 101
+    0 --> 01
+    01 --> 1 & 02
+```
+
+----
+
 
 ```mermaid
 flowchart TB
