@@ -70,13 +70,19 @@ flowchart TB
       subgraph 7[" "]
         70[MORTI]
         subgraph 8[" "]
+          direction TB;
           80[GUERRA]
           subgraph 9[" "]
+            direction LR;
             90["1914 <br> (INIZIO 1 GUERRA MONDIALE)"]
-            91[1921]
+            91["1921 <BR> (FINE GUERRA CIVILE)"]
           end
         end
       end
       60[28 MILIONI]
+      70 --> 8
+      80 --> 9
+      90 --> 91
+      7 --> 60
     end
 ```
