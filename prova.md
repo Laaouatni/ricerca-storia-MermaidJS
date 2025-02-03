@@ -15,12 +15,32 @@ flowchart TB
       012{PERò}
       013[SITUAZIONE DESOLANTE]:::classGrande
     end
-    013 --> 014
+    %% 013 --> 014
+       017 --> 014
     014{COME?}
     subgraph 2[" "]
       20[PRODUZIONE <br> ''GRANDE INDUSTRIA'']
-      200[DIMINUITA DEL 86,2%]
-      20 --> 200
+      subgraph 21[" "]
+        200[DIMINUITA DEL 86,2%]
+        subgraph 210[" "]
+          direction LR;
+          subgraph 22[" "]
+            direction TB;
+            220[1913]
+            221[100%]
+            220 <-->221
+          end
+          subgraph 23[" "]
+            direction TB;
+            230[1921]
+            231[13,8%]
+            230 <--> 231
+          end
+          22 --> 23
+        end
+        200 <--> 210
+      end
+      20 --> 21
     end
     014 --> 2
 ```
