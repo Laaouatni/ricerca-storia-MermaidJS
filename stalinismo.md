@@ -668,7 +668,7 @@ flowchart LR
     4[SCARSITà BENI]
     3 & 2 --> 4
     subgraph 5[" "]
-      direction LR
+      direction TB;
       subgraph 50[" "]
         500[MONETA]
         501[PERDE VALORE]
