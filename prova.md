@@ -14,7 +14,7 @@ flowchart TB
       016 --> 012 --> 013
       012{PERò}
       013[SITUAZIONE DESOLANTE]:::classGrande
-      014{COME?}
-      013 --> 014
     end
+    013 --> 014
+    014{COME?}
 ```
