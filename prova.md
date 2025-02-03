@@ -17,5 +17,10 @@ flowchart TB
     end
     013 --> 014
     014{COME?}
-    
+    subgraph 2[" "]
+      20[PRODUZIONE <br> ''GRANDE INDUSTRIA'']
+      200[DIMINUITA DEL 86,2%]
+      20 --> 200
+    end
+    014 --> 2
 ```
