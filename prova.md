@@ -58,7 +58,11 @@ flowchart TB
         500 --> 501
       end
       51{QUINDI}
-      52[PAGAMENTI IN NATURA]
-      53[COMMERCIO PRIVATO <br> IMPOSSIBILE]
+      subgraph 54[" "]
+        52[PAGAMENTI IN NATURA]
+        53[COMMERCIO PRIVATO <br> IMPOSSIBILE]
+      end
+      50 --> 51 --> 52 & 53
+      53 --> 52
     end
 ```
