@@ -8,7 +8,7 @@ flowchart TB
           0100[...]
           010 <--> 0100
         end
-        011["VITTORIA ARMATA LELIN <br> (STATO DI LENIN)"]
+        011["VITTORIA ARMATA ROSSA <br> (STATO DI LENIN)"]
         01 --> 011
       end
       016 --> 012 --> 013
