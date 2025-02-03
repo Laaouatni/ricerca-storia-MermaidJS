@@ -66,4 +66,17 @@ flowchart TB
       53 --> 52
     end
     014 --> 5
+    subgraph 6[" "]
+      subgraph 7[" "]
+        70[MORTI]
+        subgraph 8[" "]
+          80[GUERRA]
+          subgraph 9[" "]
+            90["1914 <br> (INIZIO 1 GUERRA MONDIALE)"]
+            91[1921]
+          end
+        end
+      end
+      60[28 MILIONI]
+    end
 ```
