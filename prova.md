@@ -51,4 +51,14 @@ flowchart TB
     014 --> 3
     4[SCARSITà BENI]
     3 & 2 --> 4
+    subgraph 5[" "]
+      subgraph 50[" "]
+        500[MONETA]
+        501[PERDE VALORE]
+        500 --> 501
+      end
+      51{QUINDI}
+      52[PAGAMENTI IN NATURA]
+      53[COMMERCIO PRIVATO <br> IMPOSSIBILE]
+    end
 ```
