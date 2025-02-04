@@ -37,6 +37,7 @@ flowchart LR;
     subgraph 2[" "]
       20[1922]
       subgraph 200[" "]
+        direction TB;
         2000[NASCITA <br> U.R.S.S.]
         subgraph 21[" "]
           210[U]
@@ -50,6 +51,7 @@ flowchart LR;
         subgraph 24[" "]
           240[S]
         end
+        2000 --> 21 & 22 & 23 & 24
       end
       20 --> 200
     end
