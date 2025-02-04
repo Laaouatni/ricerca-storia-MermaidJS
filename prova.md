@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TB
+flowchart LR
   classDef classGrande font-size: 50px;
   0[...]
   1[NASCITA U.R.S.S]
@@ -42,9 +42,11 @@ flowchart TB
   end
   0 --> 1 --> 100 & 220 & 120 & 130
   subgraph 6[" "]
+    direction LR;
     5[DOVEVANO ESSERE INDIPENDENTI E AUTONOMI]
     50{PERò}
     500[SOTTO IL CONTROLLO E LA LEGGE DI MOSCA]
     5 --> 50 --> 500
   end
+  22 --> 6
 ```
