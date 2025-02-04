@@ -8,6 +8,7 @@ flowchart TB
         100[PIETROGRADO]
         11((DOPO))
         110[MOSCA]
+        style 110 font-size: 40px;
     end
 
     2[GEOGRAFICAMENTE]
@@ -25,7 +26,9 @@ flowchart TB
         subgraph 9[" "]
 
             210[RIDUZIONE TERRITORI]
-            2100((NO))
+
+            classDef rosso stroke:#FF0000,stroke-width:5px;
+            2100((NO)):::rosso
             style 2100 font-size: 40px;
 
             subgraph 7[" "]
@@ -40,6 +43,7 @@ flowchart TB
 
               32[FINLANDIA]
             end
+            7:::rosso
         end
     end
 
