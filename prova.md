@@ -45,8 +45,15 @@ flowchart LR
     direction LR;
     5[DOVEVANO ESSERE INDIPENDENTI E AUTONOMI]:::classGrande
     50{PERò}:::classGrande
+    subgraph 500[" "]
+      7[IN REALTà, <br> ERANO SOTTO IL]
+      70[CONTROLLO]
+      71[LEGGE]
+      8[DI MOSCA]
+      7 --> 70 & 71 --> 8
+    end
     500[SOTTO IL CONTROLLO E LA LEGGE DI MOSCA]:::classGrande
-    5 --> 50 --> 500
+    5 --> 50 --> 7
   end
   22 --> 6
 ```
