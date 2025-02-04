@@ -32,7 +32,13 @@ flowchart LR;
     end
     0 --> 030
 
+    030 --> 2
+
     subgraph 2[" "]
-      
+      20[1922]
+      subgraph 200[" "]
+        2000[NASCITA <br> U.R.S.S.]
+      end
+      20 --> 200
     end
 ```
