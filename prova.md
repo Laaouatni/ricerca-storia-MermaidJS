@@ -43,7 +43,12 @@ flowchart LR
   0 --> 1 --> 100 & 220 & 120 & 130
   subgraph 6[" "]
     direction LR;
-    5[DOVEVANO ESSERE INDIPENDENTI E AUTONOMI]:::classGrande
+    subgraph 5[" "]
+      51[DOVEVANO ESSERE]
+      510[INDIPENDENTI]
+      511[AUTONOMI]
+      51 --> 510 & 511
+    end
     50{PERò}:::classGrande
     subgraph 500[" "]
       7[IN REALTà, <br> ERANO SOTTO IL]
