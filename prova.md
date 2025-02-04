@@ -1,5 +1,6 @@
 ```mermaid
 flowchart TB
+  classDef classGrande font-size: 50px;
   0[...]
   1[NASCITA U.R.S.S]
   subgraph 15[" "]
@@ -8,10 +9,25 @@ flowchart TB
       1000[...]
       100 --> 1000
     end
-    subgraph 11[" "]
-      110[R]
-      1100[...]
-      110 --> 1100
+    subgraph 22[" "]
+      220[R]:::classGrande
+      2200[REPUBBLICHE]
+      22000{QUALI?}
+      subgraph 3[" "]
+          30[REPUBBLICA <br> SOCIALISTA <br> FEDERALE <br> SOVIETICA <br> RUSSA]
+          31[REPUBBLICA]
+          310[UCRAINA]
+          311[BIELORUSSIA]
+          subgraph 4[" "]
+              312[TRANSCAUCASIA]
+              3120[GEORGIA]
+              3121[ARMENIA]
+              3122[AZERBAIGIAN]
+          end
+          312 --> 3120 & 3121 & 3122
+          31 --> 310 & 311 & 312
+      end
+      220 --> 2200 --> 22000 --> 30 & 31
     end
     subgraph 12[" "]
       120[S]
@@ -24,5 +40,5 @@ flowchart TB
       130 --> 1300
     end
   end
-  0 --> 1 --> 100 & 110 & 120 & 130
+  0 --> 1 --> 100 & 220 & 120 & 130
 ```
