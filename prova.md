@@ -57,10 +57,12 @@ flowchart LR;
             31[REPUBBLICA]
             310[UCRAINA]
             311[BIELORUSSIA]
-            312[TRANSCAUCASIA]
-            3120[GEORGIA]
-            3121[ARMENIA]
-            3122[AZERBAIGIAN]
+            subgraph 4[" "]
+              312[TRANSCAUCASIA]
+              3120[GEORGIA]
+              3121[ARMENIA]
+              3122[AZERBAIGIAN]
+            end
             312 --> 3120 & 3121 & 3122
             31 --> 310 & 311 & 312
           end
