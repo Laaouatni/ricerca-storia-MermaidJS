@@ -2,8 +2,10 @@
 flowchart LR
     0[URSS]
     1[CAPITALE]
-    10[PIETROGRADO]
-    11[MOSCA]
+    10[PRIMA]
+    100[PIETROGRADO]
+    11[DOPO]
+    110[MOSCA]
     2[GEOGRAFICAMENTE]
     20[PRIMA]
     200[IMPERO ZARISTA]
@@ -18,4 +20,6 @@ flowchart LR
     311[LETTONIA]
     312[LITUANIA]
     32[FINLANDIA]
+    0 --> 1 & 2
+
 ```
