@@ -3,32 +3,44 @@ flowchart LR
     0[URSS]
     
     1[CAPITALE]
-    10[PRIMA]
-    100[PIETROGRADO]
-    11[DOPO]
-    110[MOSCA]
+    subgraph 4[" "]
+        10[PRIMA]
+        100[PIETROGRADO]
+        11[DOPO]
+        110[MOSCA]
+    end
 
     2[GEOGRAFICAMENTE]
 
-    20[PRIMA]
+    subgraph 5[" "]
+        20[PRIMA]
 
-    200[IMPERO ZARISTA]
-    201[MOLTO VASTO]
-    200 <--> 201
+        subgraph 6[" "]
+          200[IMPERO ZARISTA]
+          201[MOLTO VASTO]
+          200 <--> 201
+        end
 
-    21[DOPO]
+        21[DOPO]
 
-    210[RIDUZIONE TERRITORI]
-    2100((NO))
-    30[POLONIA]
+        210[RIDUZIONE TERRITORI]
+        2100((NO))
+        style 2100 font-size: 40px;
 
-    31[PAESI BALTICI]
-    310[ESTONIA]
-    311[LETTONIA]
-    312[LITUANIA]
+        subgraph 7[" "]
+          30[POLONIA]
 
-    32[FINLANDIA]
-    
+          subgraph 8[" "]
+            31[PAESI BALTICI]
+            310[ESTONIA]
+            311[LETTONIA]
+            312[LITUANIA]
+          end
+
+          32[FINLANDIA]
+        end
+    end
+
     0 --> 1 & 2
     1 --> 10 & 11
     10 --> 100
