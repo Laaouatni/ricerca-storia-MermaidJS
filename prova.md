@@ -22,22 +22,24 @@ flowchart LR
         end
 
         21((DOPO))
+        subgraph 9[" "]
 
-        210[RIDUZIONE TERRITORI]
-        2100((NO))
-        style 2100 font-size: 40px;
+            210[RIDUZIONE TERRITORI]
+            2100((NO))
+            style 2100 font-size: 40px;
 
-        subgraph 7[" "]
-          30[POLONIA]
+            subgraph 7[" "]
+              30[POLONIA]
 
-          subgraph 8[" "]
-            31[PAESI BALTICI]
-            310[ESTONIA]
-            311[LETTONIA]
-            312[LITUANIA]
-          end
+              subgraph 8[" "]
+                31[PAESI BALTICI]
+                310[ESTONIA]
+                311[LETTONIA]
+                312[LITUANIA]
+              end
 
-          32[FINLANDIA]
+              32[FINLANDIA]
+            end
         end
     end
 
@@ -46,10 +48,10 @@ flowchart LR
     10 --> 100
     11 --> 110
     2 --> 20 & 21
-    20 --> 200
+    20 --> 6
     21 --> 210
     210 --> 2100
-    2100 --> 30 & 31 & 32
+    2100 --> 30 & 8 & 32
     31 --> 310 & 311 & 312
 
 
