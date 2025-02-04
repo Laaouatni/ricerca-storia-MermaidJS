@@ -49,6 +49,17 @@ flowchart LR;
           direction TB;
           220[R]
           2200[REPUBBLICHE]
+          22000{QUALI?}
+          subgraph 3[" "]
+            30[REPUBBLICA <br> SOCIALISTA <br> FEDERALE <br> SOVIETICA <br> RUSSA]
+            31[REPUBBLICA]
+            310[UCRAINA]
+            311[BIELORUSSIA]
+            312[TRANSCAUCASIA]
+            3120[GEORGIA]
+            3121[ARMENIA]
+            3122[AZERBAIGIAN]
+          end
           220 --> 2200
         end
         subgraph 23[" "]
