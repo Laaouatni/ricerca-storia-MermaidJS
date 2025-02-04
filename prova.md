@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TB
     0[URSS]
     
     1[CAPITALE]
