@@ -59,8 +59,10 @@ flowchart LR;
             3120[GEORGIA]
             3121[ARMENIA]
             3122[AZERBAIGIAN]
+            312 --> 3120 & 3121 & 3122
+            31 --> 310 & 311 & 312
           end
-          220 --> 2200
+          220 --> 2200 --> 30 & 31
         end
         subgraph 23[" "]
           direction TB;
