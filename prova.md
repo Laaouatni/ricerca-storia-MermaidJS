@@ -43,9 +43,9 @@ flowchart LR
   0 --> 1 --> 100 & 220 & 120 & 130
   subgraph 6[" "]
     direction LR;
-    5[DOVEVANO ESSERE INDIPENDENTI E AUTONOMI]
-    50{PERò}
-    500[SOTTO IL CONTROLLO E LA LEGGE DI MOSCA]
+    5[DOVEVANO ESSERE INDIPENDENTI E AUTONOMI]:::classGrande
+    50{PERò}:::classGrande
+    500[SOTTO IL CONTROLLO E LA LEGGE DI MOSCA]:::classGrande
     5 --> 50 --> 500
   end
   22 --> 6
