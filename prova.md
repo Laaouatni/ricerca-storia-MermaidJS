@@ -24,11 +24,15 @@ flowchart LR;
         end
     end
 
-    subgraph 3[" "]
+    subgraph 030[" "]
         1[VITTORIA DELLO <BR> STATO DI LENIN]
         10[...]
         1 --> 10
         style 1 stroke:#ff0000,stroke-width:5px, font-size:25px;
     end
-    0 --> 3
+    0 --> 030
+
+    
+
+
 ```
