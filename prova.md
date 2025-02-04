@@ -4,16 +4,16 @@ flowchart LR
     
     1[CAPITALE]
     subgraph 4[" "]
-        10[PRIMA]
+        10((PRIMA))
         100[PIETROGRADO]
-        11[DOPO]
+        11((DOPO))
         110[MOSCA]
     end
 
     2[GEOGRAFICAMENTE]
 
     subgraph 5[" "]
-        20[PRIMA]
+        20((PRIMA))
 
         subgraph 6[" "]
           200[IMPERO ZARISTA]
@@ -21,7 +21,7 @@ flowchart LR
           200 <--> 201
         end
 
-        21[DOPO]
+        21((DOPO))
 
         210[RIDUZIONE TERRITORI]
         2100((NO))
