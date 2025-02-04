@@ -722,7 +722,6 @@ flowchart LR
             010 --> 011
         end
         01 <--> 02
-
         subgraph 02[" "]
             direction TB;
             020[GUERRA CIVILE]
@@ -744,9 +743,7 @@ flowchart LR
         style 1 stroke:#ff0000,stroke-width:5px, font-size:25px;
     end
     0 --> 030
-
     030 --> 2
-
     subgraph 2[" "]
         20[1922]
         subgraph 200[" "]
@@ -847,5 +844,3 @@ flowchart TB
     2100 --> 30 & 8 & 32
     31 --> 310 & 311 & 312
 ```
-
-
