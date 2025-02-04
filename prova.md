@@ -41,4 +41,10 @@ flowchart TB
     end
   end
   0 --> 1 --> 100 & 220 & 120 & 130
+  subgraph 6[" "]
+    5[DOVEVANO ESSERE INDIPENDENTI E AUTONOMI]
+    50{PERò}
+    500[SOTTO IL CONTROLLO E LA LEGGE DI MOSCA]
+    5 --> 50 --> 500
+  end
 ```
