@@ -1,5 +1,7 @@
 ```mermaid
 flowchart LR;
+    classDef classGrande font-size: 50px;
+    classDef classMoltoGrande font-size: 70px;
     subgraph 0[" "]
         direction TB;
         subgraph 01[" "]
@@ -38,16 +40,16 @@ flowchart LR;
       20[1922]
       subgraph 200[" "]
         direction TB;
-        2000[NASCITA <br> U.R.S.S.]
+        2000[NASCITA U.R.S.S.]:::classMoltoGrande
         subgraph 21[" "]
           direction TB;
-          210[U]
+          210[U]:::classGrande
           2100[UNIONE]
           210 --> 2100
         end
         subgraph 22[" "]
           direction TB;
-          220[R]
+          220[R]:::classGrande
           2200[REPUBBLICHE]
           22000{QUALI?}
           subgraph 3[" "]
@@ -66,17 +68,17 @@ flowchart LR;
         end
         subgraph 23[" "]
           direction TB;
-          230[S]
+          230[S]:::classGrande
           2300[SOCIALISTE]
           230 --> 2300
         end
         subgraph 24[" "]
           direction TB;
-          240[S]
+          240[S]:::classGrande
           2400[SOVIETICHE]
           240 --> 2400
         end
-        2000 --> 21 & 22 & 23 & 24
+        2000 --> 21 & 220 & 23 & 24
       end
       20 --> 200
     end
