@@ -28,6 +28,14 @@ flowchart TB
   3{RISULTATO}
   2 --> 3
   subgraph 4[" "]
-    
+    40[SOPPRESSIONE <BR> MAGGIORE]
+    41[PRIMA CONTRO]
+    410[OPPOSIZIONE ESTERNE]
+    42[DOPO CONTRO]
+    420[IL LORO STESSO PARTITO]
+    40 --> 41 & 42
+    41 --> 410
+    42 --> 410 & 420
   end
+  3 --> 40
 ```
