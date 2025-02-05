@@ -23,13 +23,17 @@ flowchart TB
   subgraph 6[" "]
     60((NO))
     61[GRUPPI ORGANIZZATI]
-    62[ASSOCIAZIONI]
-    620[GIOVANILI]
-    621[RELIGIOSI]
-    63[FORZE POLITICHE]
-    630[SOCIAL-RIVOLUZIONARI]
-    631[ANARCHICI]
-    632[MENSCEVICHI]
+    subgraph 64[" "]
+      62[ASSOCIAZIONI]
+      620[GIOVANILI]
+      621[RELIGIOSI]
+    end
+    subgraph 65[" "]
+      63[FORZE POLITICHE]
+      630[SOCIAL-RIVOLUZIONARI]
+      631[ANARCHICI]
+      632[MENSCEVICHI]
+    end
     60 --> 61 & 62 & 63
     63 --> 630 & 631 & 632
     62 --> 620 & 621
