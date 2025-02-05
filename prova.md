@@ -1,12 +1,13 @@
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph 0[" "]
     subgraph 01[" "]
-      010[RIVOLTE]
+      010[RIVOLTE <br> CONTRO BOLSCEVICHI]
       011[...]
       010 --> 011
     end
     subgraph 02[" "]
+      direction TB
       020[10° CONGRESSO DEL]
       subgraph 023[" "]
         direction LR
