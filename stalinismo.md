@@ -925,192 +925,192 @@ timeline
 
 ```mermaid
 flowchart TB
-  subgraph 42[" "]
-    0[CON I BOLSCEVISCHI]
-    subgraph 3[" "]
-      1[PRIMA]
-      10[SPERANZE <br> DEMOCRAZIA <br> OPERAIA]
-      1 --> 10
-    end
-    2[DOPO]
-    0 --> 1 & 2
-    subgraph 4[" "]
-      40[DITTATURA PROLETARIATO]
-      400[MONOPOLIO POTERE]
-      40 <--> 400
-    end
-    2 --> 4
-    41((MA))
-    10 --> 41 --> 4
-  end
-  5{COME}
-  4 --> 5
-  5 --> 69 & 89
-  subgraph 7[" "]
-    69[POTERE]
-    89[LAVORO]
-    69 --> 60
-    89 --> 80 & 81 & 82 & 83
-    subgraph 6[" "]
-      60((NO))
-      style 60 font-size: 60px;
-      61[GRUPPI ORGANIZZATI]
-      subgraph 64[" "]
-        62[ASSOCIAZIONI]
-        620[GIOVANILI]
-        621[RELIGIOSI]
-      end
-      subgraph 65[" "]
-        63[FORZE POLITICHE]
-        630[SOCIAL-RIVOLUZIONARI]
-        631[ANARCHICI]
-        632[MENSCEVICHI]
-      end
-      60 --> 61 & 62 & 63
-      63 --> 630 & 631 & 632
-      62 --> 620 & 621
-    end
-    subgraph 8[" "]
-      80[CONTROLLI RIGIDI <br> AI LAVORATORI]
-      subgraph 81[" "]
-        810((NO))
-        8100[LIBERTà DI <br> CAMBIARE <br> OCCUPAZIONE]
-        810 --> 8100
-      end
-      82[MILITARIZZAZIONE <br> DEL LAVORO]
-      subgraph 83[" "]
-        830[DIREZIONE AZIENDE]
-        subgraph 831[" "]
-          832[1 SINGOLO <br> DIRETTORE]
-          833[POTERE ASSOLUTO]
-          832 <--> 833
+    subgraph 42[" "]
+        0[CON I BOLSCEVISCHI]
+        subgraph 3[" "]
+            1[PRIMA]
+            10[SPERANZE <br> DEMOCRAZIA <br> OPERAIA]
+            1 --> 10
         end
-        830 --> 831
-      end
+        2[DOPO]
+        0 --> 1 & 2
+        subgraph 4[" "]
+            40[DITTATURA PROLETARIATO]
+            400[MONOPOLIO POTERE]
+            40 <--> 400
+        end
+        2 --> 4
+        41((MA))
+        10 --> 41 --> 4
     end
-  end
+    5{COME}
+    4 --> 5
+    5 --> 69 & 89
+    subgraph 7[" "]
+        69[POTERE]
+        89[LAVORO]
+        69 --> 60
+        89 --> 80 & 81 & 82 & 83
+        subgraph 6[" "]
+            60((NO))
+            style 60 font-size: 60px;
+            61[GRUPPI ORGANIZZATI]
+            subgraph 64[" "]
+                62[ASSOCIAZIONI]
+                620[GIOVANILI]
+                621[RELIGIOSI]
+            end
+            subgraph 65[" "]
+                63[FORZE POLITICHE]
+                630[SOCIAL-RIVOLUZIONARI]
+                631[ANARCHICI]
+                632[MENSCEVICHI]
+            end
+            60 --> 61 & 62 & 63
+            63 --> 630 & 631 & 632
+            62 --> 620 & 621
+        end
+        subgraph 8[" "]
+            80[CONTROLLI RIGIDI <br> AI LAVORATORI]
+            subgraph 81[" "]
+                810((NO))
+                8100[LIBERTà DI <br> CAMBIARE <br> OCCUPAZIONE]
+                810 --> 8100
+            end
+            82[MILITARIZZAZIONE <br> DEL LAVORO]
+            subgraph 83[" "]
+                830[DIREZIONE AZIENDE]
+                subgraph 831[" "]
+                    832[1 SINGOLO <br> DIRETTORE]
+                    833[POTERE ASSOLUTO]
+                    832 <--> 833
+                end
+                830 --> 831
+            end
+        end
+    end
 ```
 
 ----
 
 ```mermaid
 flowchart LR
-  subgraph 04[" "]
-    0[DITTATURA BOLSCEVICHI]
-    01{COME}
-    subgraph 02[" "]
-      010[POTERE]
-      subgraph 020[" "]
-        0100((NO))
-        01000[...]
-        01001[...]
-        01002[...]
-      end
-    end
-    subgraph 03[" "]
-      011[LAVORO]
-      0110[...]
-      0111[...]
-      0112[...]
-    end
-    0 --> 01 --> 010 & 011
-    010 --> 0100
-    0100 --> 01000 & 01001 & 01002
-    011 --> 0110 & 0111 & 0112
-  end
-  1{NONOSTANTE <br> I LIMITI}
-  04 --> 1
-  subgraph 10[" "]
-    100[RIVOLTE CONTRO <br> BOLSCEVICHI]
-    subgraph 21[" "]
-      20[02/1921]
-      200[SCIOPERI]
-      20 --> 200
-    end
-    subgraph 22[" "]
-      direction TB;
-      subgraph 220[" "]
-        direction LR;
-        2200[02/03/1921]
-        2201[17/03/1921]
-        2200 --> 2201
-      end
-      subgraph 221[" "]
-        subgraph 222[" "]
-          2220[RIBELLIONE]
-          2221[MARINAI]
+    subgraph 04[" "]
+        0[DITTATURA BOLSCEVICHI]
+        01{COME}
+        subgraph 02[" "]
+            010[POTERE]
+            subgraph 020[" "]
+                0100((NO))
+                01000[...]
+                01001[...]
+                01002[...]
+            end
         end
-        223[BASE NAVALE <br> DI KRONSTADT]
-        2220 --> 2221
-        2221 -->|DELLA| 223
-      end
-      220 --> 221
+        subgraph 03[" "]
+            011[LAVORO]
+            0110[...]
+            0111[...]
+            0112[...]
+        end
+        0 --> 01 --> 010 & 011
+        010 --> 0100
+        0100 --> 01000 & 01001 & 01002
+        011 --> 0110 & 0111 & 0112
     end
-    100 --> 21 & 22
-  end
-  1 --> 100
-  subgraph 3[" "]
-    31[FERMATI CON <br> LE TRUPPE]
-    subgraph 32[" "]
-      320[DEPORTATI]
-      321[FUCILATI <br> SUL POSTO]
+    1{NONOSTANTE <br> I LIMITI}
+    04 --> 1
+    subgraph 10[" "]
+        100[RIVOLTE CONTRO <br> BOLSCEVICHI]
+        subgraph 21[" "]
+            20[02/1921]
+            200[SCIOPERI]
+            20 --> 200
+        end
+        subgraph 22[" "]
+            direction TB;
+            subgraph 220[" "]
+                direction LR;
+                2200[02/03/1921]
+                2201[17/03/1921]
+                2200 --> 2201
+            end
+            subgraph 221[" "]
+                subgraph 222[" "]
+                    2220[RIBELLIONE]
+                    2221[MARINAI]
+                end
+                223[BASE NAVALE <br> DI KRONSTADT]
+                2220 --> 2221
+                2221 -->|DELLA| 223
+            end
+            220 --> 221
+        end
+        100 --> 21 & 22
     end
-  end
-  4{CONSEGUENZE}
-  21 --> 31
-  10 --> 4 --> 3
-  22 --> 320 & 321
+    1 --> 100
+    subgraph 3[" "]
+        31[FERMATI CON <br> LE TRUPPE]
+        subgraph 32[" "]
+            320[DEPORTATI]
+            321[FUCILATI <br> SUL POSTO]
+        end
+    end
+    4{CONSEGUENZE}
+    21 --> 31
+    10 --> 4 --> 3
+    22 --> 320 & 321
 ```
 
 ----
 
 ```mermaid
 flowchart TB
-  subgraph 0[" "]
-    subgraph 01[" "]
-      010[RIVOLTE <br> CONTRO BOLSCEVICHI]
-      011[...]
-      010 --> 011
+    subgraph 0[" "]
+        subgraph 01[" "]
+            010[RIVOLTE <br> CONTRO BOLSCEVICHI]
+            011[...]
+            010 --> 011
+        end
+        subgraph 02[" "]
+            direction TB
+            020[10° CONGRESSO DEL]
+            subgraph 023[" "]
+                direction LR
+                021[P.C.U.S.]
+                0210[PARTITO COMUNISTA DELL'UNIONE SOVIETICA]
+                021 --> 0210
+            end
+            020 --> 023
+        end
+        01 <----->|CONTEMPORANEAMENTE| 02
     end
-    subgraph 02[" "]
-      direction TB
-      020[10° CONGRESSO DEL]
-      subgraph 023[" "]
-        direction LR
-        021[P.C.U.S.]
-        0210[PARTITO COMUNISTA DELL'UNIONE SOVIETICA]
-        021 --> 0210
-      end
-      020 --> 023
+    subgraph 5[" "]
+        subgraph 2[" "]
+            1((UTILIZZANO UN <br> PRETESTO))
+            10[UNITà INTERNA]
+        end
+        3{RISULTATO}
+        subgraph 4[" "]
+            40[SOPPRESSIONE <BR> MAGGIORE]
+            subgraph 43[" "]
+                41[PRIMA CONTRO]
+                410[OPPOSIZIONE ESTERNE]
+            end
+            subgraph 44[" "]
+                42[DOPO CONTRO]
+                420[IL LORO STESSO PARTITO]
+            end
+        end
+        6[MONOLITISMO]
+        3 --> 6
+        4 ----> |CIOè| 6
     end
-    01 <----->|CONTEMPORANEAMENTE| 02
-  end
-  subgraph 5[" "]
-    subgraph 2[" "]
-      1((UTILIZZANO UN <br> PRETESTO))
-      10[UNITà INTERNA]
-    end
-    3{RISULTATO}
-    subgraph 4[" "]
-      40[SOPPRESSIONE <BR> MAGGIORE]
-      subgraph 43[" "]
-        41[PRIMA CONTRO]
-        410[OPPOSIZIONE ESTERNE]
-      end
-      subgraph 44[" "]
-        42[DOPO CONTRO]
-        420[IL LORO STESSO PARTITO]
-      end
-    end
-    6[MONOLITISMO]
-    3 --> 6
-    4 ----> |CIOè| 6
-  end
-  0 ---> 5
-  1 --> 10
-  2 --> 3
-  40 --> 41 & 42
-  41 --> 410
-  42 --> 410 & 420
-  3 --> 40
+    0 ---> 5
+    1 --> 10
+    2 --> 3
+    40 --> 41 & 42
+    41 --> 410
+    42 --> 410 & 420
+    3 --> 40
 ```
