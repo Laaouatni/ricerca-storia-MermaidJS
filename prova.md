@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TB
+flowchart LR
   subgraph 04[" "]
     0[DITTATURA BOLSCEVICHI]
     01{COME}
@@ -54,4 +54,15 @@ flowchart TB
     100 --> 21 & 22
   end
   1 --> 100
+  subgraph 3[" "]
+    31[FERMATI CON <br> LE TRUPPE]
+    subgraph 32[" "]
+      320[DEPORTATI]
+      321[FUCILATI <br> SUL POSTO]
+    end
+  end
+  4{CONSEGUENZE}
+  10 --> 4 --> 3
+  21 --> 31
+  22 --> 32
 ```
