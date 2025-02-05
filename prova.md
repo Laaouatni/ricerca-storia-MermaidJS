@@ -25,4 +25,9 @@ flowchart TB
   end
   0 --> 2
   1 --> 10
+  3{RISULTATO}
+  2 --> 3
+  subgraph 4[" "]
+    
+  end
 ```
