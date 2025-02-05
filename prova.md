@@ -27,5 +27,31 @@ flowchart TB
   04 --> 1
   subgraph 10[" "]
     100[RIVOLTE CONTRO <br> BOLSCEVICHI]
+    subgraph 21[" "]
+      20[02/1921]
+      200[SCIOPERI]
+      20 --> 200
+    end
+    subgraph 22[" "]
+      direction TB;
+      subgraph 220[" "]
+        direction LR;
+        2200[02/03/1921]
+        2201[17/03/1921]
+        2200 --> 2201
+      end
+      subgraph 221[" "]
+        subgraph 222[" "]
+          2220[RIBELLIONE]
+          2221[MARINAI]
+        end
+        223[BASE NAVALE <br> DI KRONSTADT]
+        2220 --> 2221
+        2221 -->|DELLA| 223
+      end
+      220 --> 221
+    end
+    100 --> 21 & 22
   end
+  1 --> 100
 ```
