@@ -19,9 +19,10 @@ flowchart TB
     10 --> 41 --> 4
   end
   5{COME}
-  4 --> 5
+  42 --> 5
   subgraph 6[" "]
     60((NO))
+    style 60 font-size: 60px;
     61[GRUPPI ORGANIZZATI]
     subgraph 64[" "]
       62[ASSOCIAZIONI]
@@ -38,4 +39,5 @@ flowchart TB
     63 --> 630 & 631 & 632
     62 --> 620 & 621
   end
+  5 --> 60
 ```
