@@ -20,24 +20,43 @@ flowchart TB
   end
   5{COME}
   42 --> 5
-  subgraph 6[" "]
-    60((NO))
-    style 60 font-size: 60px;
-    61[GRUPPI ORGANIZZATI]
-    subgraph 64[" "]
-      62[ASSOCIAZIONI]
-      620[GIOVANILI]
-      621[RELIGIOSI]
+  subgraph 7[" "]
+    subgraph 6[" "]
+      60((NO))
+      style 60 font-size: 60px;
+      61[GRUPPI ORGANIZZATI]
+      subgraph 64[" "]
+        62[ASSOCIAZIONI]
+        620[GIOVANILI]
+        621[RELIGIOSI]
+      end
+      subgraph 65[" "]
+        63[FORZE POLITICHE]
+        630[SOCIAL-RIVOLUZIONARI]
+        631[ANARCHICI]
+        632[MENSCEVICHI]
+      end
+      60 --> 61 & 62 & 63
+      63 --> 630 & 631 & 632
+      62 --> 620 & 621
     end
-    subgraph 65[" "]
-      63[FORZE POLITICHE]
-      630[SOCIAL-RIVOLUZIONARI]
-      631[ANARCHICI]
-      632[MENSCEVICHI]
+    5 --> 60
+    subgraph 8[" "]
+      80[CONTROLLI RIGIDI <br> AI LAVORATORI]
+      subgraph 81[" "]
+        810((NO))
+        8100[LIBERTà DI <br> CAMBIARE <br> OCCUPAZIONE]
+        810 --> 8100
+      end
+      82[MILITARIZZAZIONE <br> DEL LAVORO]
+      subgraph 83[" "]
+        830[DIREZIONE AZIENDE]
+        subgraph 831[" "]
+          832[1 SINGOLO <br> DIRETTORE]
+          833[POTERE ASSOLUTO]
+          832 <--> 833
+        end
+      end
     end
-    60 --> 61 & 62 & 63
-    63 --> 630 & 631 & 632
-    62 --> 620 & 621
   end
-  5 --> 60
 ```
