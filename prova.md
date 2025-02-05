@@ -23,4 +23,5 @@ flowchart TB
     0100 --> 01000 & 01001 & 01002
     011 --> 0110 & 0111 & 0112
   end
+  1{NONOSTANTE <br> I LIMITI}
 ```
