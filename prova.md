@@ -24,6 +24,8 @@ flowchart TB
     69[POTERE]
     89[LAVORO]
     5 --> 69 & 89
+    69 --> 6
+    89 --> 8
     subgraph 6[" "]
       60((NO))
       style 60 font-size: 60px;
@@ -58,8 +60,8 @@ flowchart TB
           833[POTERE ASSOLUTO]
           832 <--> 833
         end
+        830 --> 831
       end
     end
   end
-  5 --> 60
 ```
