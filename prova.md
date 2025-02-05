@@ -20,12 +20,12 @@ flowchart TB
   end
   5{COME}
   42 --> 5
+  5 --> 69 & 89
   subgraph 7[" "]
     69[POTERE]
     89[LAVORO]
-    5 --> 69 & 89
-    69 --> 6
-    89 --> 8
+    69 --> 60
+    89 --> 80 & 81 & 82 & 83
     subgraph 6[" "]
       60((NO))
       style 60 font-size: 60px;
