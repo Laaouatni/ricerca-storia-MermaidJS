@@ -3,7 +3,7 @@ flowchart LR
   0[CON I BOLSCEVISCHI]
   subgraph 3[" "]
     1[PRIMA]
-    10[SPERANZE DEMOCRAZIA OPERAIA]
+    10[SPERANZE <br> DEMOCRAZIA <br> OPERAIA]
     1 --> 10
   end
   2[DOPO]
