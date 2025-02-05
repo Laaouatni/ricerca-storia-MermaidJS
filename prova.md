@@ -19,27 +19,31 @@ flowchart TB
     end
     01 <----->|CONTEMPORANEAMENTE| 02
   end
-  subgraph 2[" "]
-    1((UTILIZZANO UN <br> <h1>PRETESTO</h1>))
-    10[UNITà INTERNA]
+  subgraph 5[" "]
+    subgraph 2[" "]
+      1((UTILIZZANO UN <br> <h1>PRETESTO</h1>))
+      10[UNITà INTERNA]
+    end
+    3{RISULTATO}
+    subgraph 4[" "]
+      40[SOPPRESSIONE <BR> MAGGIORE]
+      subgraph 43[" "]
+        41[<h1>PRIMA</h1> CONTRO]
+        410[OPPOSIZIONE ESTERNE]
+      end
+      subgraph 44[" "]
+        42[<H1>DOPO</H1> CONTRO]
+        420[IL LORO STESSO PARTITO]
+      end
+    end
+    6[<h1>MONOLITISMO</h1>]
+    3 --> 6 -->|CIOè| 4
   end
-  0 --> 2
+  0 --> 5
   1 --> 10
-  3{RISULTATO}
   2 --> 3
-  subgraph 4[" "]
-    40[SOPPRESSIONE <BR> MAGGIORE]
-    subgraph 43[" "]
-      41[<h1>PRIMA</h1> CONTRO]
-      410[OPPOSIZIONE ESTERNE]
-    end
-    subgraph 44[" "]
-      42[<H1>DOPO</H1> CONTRO]
-      420[IL LORO STESSO PARTITO]
-    end
-    40 --> 41 & 42
-    41 --> 410
-    42 --> 410 & 420
-  end
+  40 --> 41 & 42
+  41 --> 410
+  42 --> 410 & 420
   3 --> 40
 ```
