@@ -915,6 +915,15 @@ flowchart TB
 ----
 
 ```mermaid
+timeline
+    1922: 14 STATI MEMBRI
+    1945: 15 STATI MEMBRI : SI AGGIUNGE <br> MOLDAVIA
+    1991: SCIOGLIMENTO URSS
+```
+
+----
+
+```mermaid
 flowchart TB
   subgraph 42[" "]
     0[CON I BOLSCEVISCHI]
