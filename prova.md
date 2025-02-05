@@ -21,6 +21,9 @@ flowchart TB
   5{COME}
   42 --> 5
   subgraph 7[" "]
+    69[POTERE]
+    89[LAVORO]
+    5 --> 69 & 89
     subgraph 6[" "]
       60((NO))
       style 60 font-size: 60px;
@@ -40,7 +43,6 @@ flowchart TB
       63 --> 630 & 631 & 632
       62 --> 620 & 621
     end
-    5 --> 60
     subgraph 8[" "]
       80[CONTROLLI RIGIDI <br> AI LAVORATORI]
       subgraph 81[" "]
@@ -59,4 +61,5 @@ flowchart TB
       end
     end
   end
+  5 --> 60
 ```
