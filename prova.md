@@ -29,9 +29,9 @@ flowchart TB
   2 --> 3
   subgraph 4[" "]
     40[SOPPRESSIONE <BR> MAGGIORE]
-    41[PRIMA CONTRO]
+    41[<h1>PRIMA</h1> CONTRO]
     410[OPPOSIZIONE ESTERNE]
-    42[DOPO CONTRO]
+    42[<H1>DOPO</H1> CONTRO]
     420[IL LORO STESSO PARTITO]
     40 --> 41 & 42
     41 --> 410
