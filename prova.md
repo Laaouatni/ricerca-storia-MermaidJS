@@ -24,4 +24,8 @@ flowchart TB
     011 --> 0110 & 0111 & 0112
   end
   1{NONOSTANTE <br> I LIMITI}
+  04 --> 1
+  subgraph 10[" "]
+    100[RIVOLTE CONTRO <br> BOLSCEVICHI]
+  end
 ```
