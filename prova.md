@@ -19,7 +19,7 @@ flowchart TB
     10 --> 41 --> 4
   end
   5{COME}
-  42 --> 5
+  4 --> 5
   5 --> 69 & 89
   subgraph 7[" "]
     69[POTERE]
