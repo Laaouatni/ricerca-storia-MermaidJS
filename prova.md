@@ -37,9 +37,10 @@ flowchart TB
       end
     end
     6[<h1>MONOLITISMO</h1>]
-    3 --> 6 -->|CIOè| 4
+    3 --> 6
+    4 ----> |CIOè| 6
   end
-  0 --> 5
+  0 ---> 5
   1 --> 10
   2 --> 3
   40 --> 41 & 42
