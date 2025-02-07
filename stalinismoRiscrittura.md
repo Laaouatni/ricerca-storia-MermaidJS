@@ -38,5 +38,31 @@ flowchart LR
     2 --> 30 & 31 & 32 & 33 & 34 & 35
   end
   0 --> 1 & 2
+```
 
+----
+
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 400 } }}%%
+flowchart LR
+  0[I SOVIET]
+  subgraph 4[" "]
+    subgraph 2[" "]
+      direction LR
+      1[I SOVIET ERANO DELLE ASSOCIAZIONI DEGLI OPERAI]
+      10[CHE FORMAVANO UN PARLAMENTO <br>FORMATO DA UN NUMERO DI RAPPRESENTANTI <br>PER OGNI FABBRICA]
+      1 --> 10
+    end
+    3[I SOVIET AVEVANO IL RUOLO DI <BR> PORTARE LA VOCE DI TUTTA LA CLASSE OPERAIA]
+    2 --> 3
+  end
+  0 --> 4
+```
+
+----
+
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 700 } }}%%
+flowchart LR
+  0["TUTTE QUESTE NOVITà (LEGGI PAG 2), INTRODOTTE DALLA REPUBBLICA DEI SOVIET, <br>PURTROPPO, PORTARONO A UNA REAZIONE VIOLENTA DA PARTE DELL'ESERCITO RUSSO."]
 ```
