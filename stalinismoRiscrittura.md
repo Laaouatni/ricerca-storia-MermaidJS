@@ -220,7 +220,17 @@ flowchart TB
 %%{init: { "flowchart": { "wrappingWidth": 800 } }}%%
 flowchart TB
   subgraph 1[" "]
-
+    2[LE REPUBBLICHE CHE FORMAVANO L'URSS ERANO:]
+    3[REPUBBLICA SOCIALISTA <br> FEDERALE SOVIETICA RUSSA]
+    4[UCRAINA]
+    5[BIELORUSSIA]
+    subgraph 6[" "]
+      7[TRANSCAUCASIA, CHE ERA FORMATA DA:]
+      70[GEORGIA]
+      71[ARMENIA]
+      72[AZERBAIGIAN]
+      7 --> 70 & 71 & 72
+    end
   end
   0[LE REPUBBLICHE CHE FORMAVANO L'URSS <br>DOVEVANO ESSERE INDIPENDENTI E AUTONOMI, PERÒ IN REALTÀ, <br>ERANO SOTTO IL CONTROLLO E LA LEGGE DI MOSCA]
   1 --> 0
