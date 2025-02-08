@@ -404,3 +404,27 @@ flowchart LR
   end
   0 --> 1 --> 10 & 11 & 12 & 13
 ```
+
+---
+
+
+
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 800 } }}%%
+flowchart TB
+  0[RESOCONTO ARGOMENTI TRATTATI <br>NELLE SLIDE PRECEDENTI:]
+  subgraph 1[" "]
+    10[IMPERO ZARISTA] -->
+    11[REPUBBLICA DEI SOVIET] -->
+    12[REAZIONE DELL'ESERCITO RUSSO, <br> AIUTATO DALLE ALTRE POTENZE] -->
+    13[RISPOSTA DEI BOLSCEVICHI] -->
+    14[GUERRA CIVILE] -->
+    15[SITUAZIONE DESOLANTE] -->
+    16[NASCITA URSS] -->
+    17[LE BASI DEL TOTALITARISMO DEI BOLSCEVICHI] -->
+    18[LE RIVOLTE CONTRO I BOLSCEVICHI] -->
+    19[SVANTAGGI DELLA COLLETTIVIZZAZIONE] -->
+    20[NUOVA POLITICA ECONOMICA]
+  end
+  0 --> 1
+```
