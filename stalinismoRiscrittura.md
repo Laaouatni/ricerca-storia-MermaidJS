@@ -316,3 +316,11 @@ flowchart TB
   end
   0 --> 3 --> 1 & 2
 ```
+
+---
+
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 800 } }}%%
+flowchart TB
+  
+```
