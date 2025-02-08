@@ -266,6 +266,16 @@ flowchart TB
   0 --> 1 & 2
 ```
 
+----
+
+MAPPA 20
+
+21 SLIDE CON IMMAGINE BANDIERA
+
+-----
+
+
+
 
 
 
