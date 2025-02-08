@@ -201,6 +201,8 @@ flowchart TB
     01["L'ANNO SUCCESSIVO, NEL 1922, NASCE L'U.R.S.S."]
     0 --> 01
   end
+  2[L'URSS È UN ACRONIMO CHE INDICA LE SEGUENTI PAROLE: <br> U = UNIONE <br> R = REPUBBLICHE <br> S = SOCIALISTE <br> S = SOVIETICHE]
+  1 --> 2
 ```
 
 
