@@ -214,6 +214,15 @@ flowchart TB
   1 --> 3
 ```
 
+----
+
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 800 } }}%%
+flowchart TB
+  0[REPUBBLICHE CHE FORMAVANO L'URSS DOVEVANO ESSERE INDIPENDENTI E AUTONOMI, PERÒ IN REALTÀ, ERANO SOTTO IL CONTROLLO E LA LEGGE DI MOSCA]
+```
+
+
 
 
 
