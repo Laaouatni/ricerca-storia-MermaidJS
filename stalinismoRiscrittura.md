@@ -347,3 +347,8 @@ flowchart TB
 
 ---
 
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 800 } }}%%
+flowchart TB
+  0[INSOMMA, IL PERIODO STORICO FRA IL 1918 E IL 1921 <BR>ERA STATO UN PERIODO DI MISERIA. <BR><BR>POSSIAMO DIMOSTRARE ALCUNI ESEMPI DI SETTORI PENALIZZATI:]
+```
