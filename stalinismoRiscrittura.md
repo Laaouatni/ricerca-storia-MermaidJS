@@ -191,6 +191,20 @@ flowchart TB
   6 ---> 7
 ```
 
+----
+
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 800 } }}%%
+flowchart TB
+  subgraph 1[" "]
+    0["NEL 1921 AVVIENE LA VITTORIA DELL'ARMATA ROSSA DEI BOLSCEVICHI DI LENIN <br>NELLA GUERRA CIVILE (1918-1921) CONTRO L'ARMATA BIANCA."]
+    01["L'ANNO SUCCESSIVO, NEL 1922, NASCE L'U.R.S.S."]
+    0 --> 01
+  end
+```
+
+
+
 
 
 
