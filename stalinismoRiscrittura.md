@@ -117,5 +117,13 @@ flowchart TB
 
 ----
 
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 700 } }}%%
+flowchart TB
+  0[LE REAZIONI VIOLENTI DELL'ESERCITO RUSSO AVEVANO CAUSATO UNA REAZIONE DA PARTE DEI BOLSCEVICHI]
+```
+
+
+
 
 
