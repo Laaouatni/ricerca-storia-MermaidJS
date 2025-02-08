@@ -203,7 +203,12 @@ flowchart TB
   end
   subgraph 3[" "]
     2[L'U.R.S.S. È UN ACRONIMO CHE INDICA LE SEGUENTI PAROLE: <br> U = UNIONE <br> R = REPUBBLICHE <br> S = SOCIALISTE <br> S = SOVIETICHE]
-    20[TRA LE VARIE LETTERE, <br>QUELLA CHE MERITA MAGGIORE ATTENZIONE <br>È SICURAMENTE LA ''R'']
+    subgraph 4[" "]
+      20[TRA LE VARIE LETTERE, <br>QUELLA CHE MERITA MAGGIORE ATTENZIONE <br>È SICURAMENTE LA ''R'']
+      5{QUALI ERANO<br> LE REPUBBLICHE <br>DELL'URSS?}
+      6["*(**leggi prossima slide**)*"]
+      20 --> 5 --> 6
+    end
     2 --> 20
   end
   1 --> 3
