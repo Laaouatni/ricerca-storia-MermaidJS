@@ -249,7 +249,18 @@ flowchart TB
     2[GEOGRAFICAMENTE, L'URSS AVEVA SUBITO <BR>UNA RIDUZIONE DEL PROPRIO TERRITORIO.]
     4{QUALI ERANO <br> I TERRITORI PERSI?}
     2 --> 4
-    
+    subgraph 5[" "]
+      50[POLONIA]
+      51[FINLANDIA]
+      subgraph 52[" "]
+        6[ALCUNI PAESI BALTICI:]
+        520[ESTONIA]
+        521[LETTONIA]
+        522[LITUANIA]
+        6 --> 520 & 521 & 522
+      end
+    end
+    4 --> 50 & 51 & 6
   end
   
   0 --> 1 & 3
