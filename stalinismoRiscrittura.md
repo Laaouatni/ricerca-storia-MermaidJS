@@ -155,6 +155,14 @@ flowchart TB
   0 --> 1 & 2
 ```
 
+----
+
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 800 } }}%%
+flowchart TB
+  0[TRA IL 1918 E IL 1921 AVVIENE UNA GUERRA CIVILE. <br> QUESTO CONFLITTO ERA COMBATTUTO FRA LE ARMATE ROSSE E LE ARMATE BIANCHE.]
+```
+
 
 
 
