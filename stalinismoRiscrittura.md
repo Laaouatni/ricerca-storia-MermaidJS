@@ -274,14 +274,10 @@ MAPPA 20
 
 -----
 
+```mermaid
+%%{init: { "flowchart": { "wrappingWidth": 800 } }}%%
+flowchart TB
+  
+```
 
-
-
-
-
-
-
-
-
-
-
+----
