@@ -97,7 +97,7 @@ flowchart TB
 
 ```mermaid
 %%{init: { "flowchart": { "wrappingWidth": 700 } }}%%
-flowchart TB
+flowchart LR
   0[IN QUESTO PERIODO STORICO SI POSSONO CLASSIFICARE <br>2 TIPOLOGIE DI ARMATE CHE SI DIFFERENZIANO PER IL LORO COLORE:]
   subgraph 1[" "]
     direction TB;
@@ -106,13 +106,14 @@ flowchart TB
     10 --> 100
   end
   subgraph 2[" "]
+    direction LR;
     11[LE ARMATE ROSSE]
     110[L'ARMATA ROSSA ERA STATA INTRODOTTA DAI BOLSCEVICHI]
     111[L'ARMATA ROSSA AVEVA IL COMPITO DI <br>ANNIETTARE L'ARMATA BIANCA E DI RESPINGERE LO STRANIERO]
     112[L'ARMATA ROSSA ERA FORMATA COMPLESSIVAMENTE DA 4.5 MILIONI DI PERSONE. <br> QUESTE PERSONE, GENERALMENTE, ERANO OPERAI E CONTADINI.]
     11 --> 110 & 111 & 112
   end
-  0 --> 1 & 2
+  0 ---> 1 & 11
 ```
 
 ----
